@@ -1,6 +1,7 @@
 ---
-status: "In progress"
+dateModified: 2024-04-30
 dependency: Links
+status: "In progress"
 title: Language toggle
 ---
 <dl class="dl-horizontal brdr-0">
@@ -34,4 +35,19 @@ title: Language toggle
       </div>
     </section>
   </div>
+</div>
+<h2>Decision rational</h2>
+<p>What are we going to do?</p>
+<h3>Decision and next steps</h3>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo1" type="checkbox" /><label for="todo1">Decision required</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo2" type="checkbox" /><label for="todo2">Decision made</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo3" type="checkbox" /><label for="todo3">No decision</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo4" type="checkbox" /><label for="todo4">Discusion - decision not required</label>
 </div>

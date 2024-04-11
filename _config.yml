@@ -31,6 +31,6 @@ defaults:
       path: "_components"
     values:
       breadcrumbs:
-      - title: Mandatory elements
+      - title: Home
         link: "/en/"
       lang: en

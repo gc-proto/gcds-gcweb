@@ -1,5 +1,5 @@
 ---
-status: "In progress"
+status: "Not started"
 dependency: tokens
 title: Colours
 ---

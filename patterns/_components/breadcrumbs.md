@@ -1,7 +1,7 @@
 ---
 dependency: Links
 dateModified: 2024-04-01
-status: "In progress"
+status: "For review"
 title: Breadcrumbs trail
 ---
 <dl class="dl-horizontal brdr-0">
@@ -109,4 +109,26 @@ title: Breadcrumbs trail
       <dd>Customizable</dd>
     </dl>  
   </div>
+</div>
+<h2>Decision rational</h2>
+<p>What are we going to do?</p>
+<ul>
+  <li>Font size are at 16px intentionally, because we wnat to keep some hierarchy between the content and the navigation elements</li>
+  <li>Adjust padding so that there's even space right and left of the chevron</li>
+  <li>We like the custom icon approach (but icon might need some review)</li>
+  <li>Guidance: Clickable should be set to false on static web content and to true for web apps</li>
+  <li>Guidance: Breadcrumbs can be customizable in applications</li>
+</ul>
+<h3>Decision and next steps</h3>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo1" type="checkbox" /><label for="todo1">Decision required</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo2" type="checkbox" /><label for="todo2">Decision made</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo3" type="checkbox" /><label for="todo3">No decision</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo4" type="checkbox" /><label for="todo4">Discusion - decision not required</label>
 </div>
