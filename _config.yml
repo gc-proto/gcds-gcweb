@@ -1,6 +1,5 @@
 # Jekyll configuration file
 
-baseurl: "gcds-gcweb/"
 collections_dir: patterns
 collections:
   components:
@@ -31,6 +30,6 @@ defaults:
       path: "_components"
     values:
       breadcrumbs:
-      - title: Mandatory elements
+      - title: Home
         link: "/en/"
       lang: en

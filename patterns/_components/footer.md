@@ -74,32 +74,6 @@ title: Global footer
     </footer>
   </div>
 </section>
-<!-- <dl>
-  <dt>Link colour:</dt>
-  <dd>rgb(40, 65, 98)</dd>
-  <dt>Font size:</dt>
-  <dd>16px</dd>
-  <dt>Focus:</dt>
-  <dd>Outline-color: rgb(229, 151, 0)</dd>
-  <dt>Styled state:</dt>
-  <dd>
-    <ul>
-      <li>hover</li>
-      <li>focus</li>
-      <li>visited</li>
-    </ul>
-  </dd>
-  <dt>Truncated:</dt>
-  <dd>ellipsis</dd>
-  <dt>Icon:</dt>
-  <dd>Glyphicons, before</dd>
-  <dt>Guidance:</dt>
-  <dd>Incomplete (missing states, Figma file)</dd>
-  <dt>Clickable:</dt>
-  <dd>True</dd>
-  <dt>First item:</dt>
-  <dd>Canada.ca</dd>
-</dl> -->
 <section class="panel panel-default hght-inhrt">
   <header class="panel-heading"><h2 class="panel-title">GCDS</h2></header>
   <div class="panel-body">
@@ -111,28 +85,46 @@ title: Global footer
     </gcds-footer>
   </div>
 </section>
-<!-- <dl>
-  <dt>Link colour:</dt>
-  <dd>rgb(43, 67, 128)</dd>
-  <dt>Font size:</dt>
-  <dd> mobile: 16px | desktop: 20px</dd>
-  <dt>Focus:</dt>
-  <dd>Outline-color: rgb(5, 53, 210)</dd>
-  <dt>Styled state:</dt>
-  <dd>
-    <ul>
-      <li>hover</li>
-      <li>focus</li>
-    </ul>
-  </dd>
-  <dt>Truncated:</dt>
-  <dd>-</dd>
-  <dt>Icon:</dt>
-  <dd>custom, after</dd>
-  <dt>Guidance:</dt>
-  <dd>Web, Figma, Storybook</dd>
-  <dt>Clickable:</dt>
-  <dd>True/False</dd>
-  <dt>First item:</dt>
-  <dd>Customizable</dd>
-</dl> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>DOM Node types</h2> 
+      <p>There are several types of nodes, including:</p>
+      <dl>
+        <dt>Element</dt>
+        <dd>Represents an HTML element, such as a <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, or <code>&lt;img&gt;</code>.</dd>
+        <dt>Attr</dt>
+        <dd>Represents an attribute of an element, such as the href attribute of a <code>&lt;a</code>&gt; tag.</dd>
+        <dt>Text</dt>
+        <dd>Represents plain text within an element, such as the content of a <code>&lt;p</code>&gt; tag.</dd>
+      </dl>
+      <h2>Node relationships</h2>
+      <p>Nodes can have relationships with each other, such as:</p>
+      <dl>
+        <dt>Parent-Child</dt>
+        <dd>A node can have a parent node, which is the node that contains it.</dd>
+        <dt>Sibling</dt> 
+        <dd>Nodes can have siblings, which are nodes at the same level in the document tree.</dd>
+        <dt>Child nodes</dt>
+        <dd>A node can have child nodes, which are nodes that are contained within it.</dd>
+        <dt>CSS computed info</dt>
+        <dd>The computed style of the element(s)</dd>
+      </dl> 
+    </div>
+  </div>
+</div>
+<h2>Decision rational</h2>
+<p>What are we going to do?</p>
+<h3>Decision and next steps</h3>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo1" type="checkbox" /><label for="todo1">Decision required</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo2" type="checkbox" /><label for="todo2">Decision made</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo3" type="checkbox" /><label for="todo3">No decision</label>
+</div>
+<div class="checkbox gc-chckbxrdio">
+  <input id="todo4" type="checkbox" /><label for="todo4">Discusion - decision not required</label>
+</div>

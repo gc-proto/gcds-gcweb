@@ -1,0 +1,235 @@
+const { JSDOM } = require('jsdom');
+
+let state;
+let iframe;
+let iframeDoc;
+
+beforeEach(() => {
+    state = {
+        patternName: '',
+        patternSource: '',
+        content: '',
+        jsonData: '',
+        iframeContent: '<!DOCTYPE html><html><head></head><body></body></html>'
+    };
+
+    const dom = new JSDOM(`<!DOCTYPE html><body>
+        <input type="text" id="patternName">
+        <input type="radio" name="patternSource" value="GCWeb">
+        <input type="radio" name="patternSource" value="GCDS">
+        <textarea id="content"></textarea>
+        <button id="exportButton">Export</button>
+        <iframe id="renderFrame"></iframe>
+        <pre id="jsonPreview"></pre>
+    </body>`, { runScripts: "outside-only" });
+
+    global.document = dom.window.document;
+    global.window = dom.window;
+    iframe = document.getElementById('renderFrame');
+    iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+    // Mock functions
+    global.updateState = jest.fn((updates) => {
+        state = { ...state, ...updates };
+    });
+
+    global.renderUI = jest.fn(() => {
+        document.getElementById('patternName').value = state.patternName;
+        if (state.patternSource) {
+            document.querySelector(`input[name="patternSource"][value="${state.patternSource}"]`).checked = true;
+        }
+        document.getElementById('content').value = state.content;
+        document.getElementById('jsonPreview').textContent = state.jsonData;
+
+        iframeDoc.open();
+        iframeDoc.write(state.iframeContent);
+        iframeDoc.close();
+    });
+
+    global.handleExportButtonClick = jest.fn(async () => {
+        const { patternName, patternSource, content } = state;
+
+        if (!patternName || !patternSource || !content) {
+            alert('All fields are required.');
+            return;
+        }
+
+        const iframeContent = `
+            <!DOCTYPE html>
+            <html>
+            <head></head>
+            <body>${content}</body>
+            </html>
+        `;
+        updateState({ iframeContent });
+
+        renderUI();
+
+        await executeScripts(iframeDoc);
+
+        const root = iframeDoc.body;
+        const domInfo = traverseDOM(root);
+
+        const jsonData = JSON.stringify(domInfo, null, 2);
+        updateState({ jsonData });
+        document.getElementById('jsonPreview').textContent = jsonData;
+
+        const blob = new Blob([jsonData], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${patternSource}_${patternName}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    });
+
+    global.getNodeInfo = jest.fn((node) => {
+        const nodeInfo = {
+            nodeType: node.nodeType,
+            nodeName: node.nodeName,
+            textContent: node.nodeType === Node.TEXT_NODE ? node.textContent : '',
+            attributes: {},
+            computedStyles: {},
+            pseudoStyles: {}
+        };
+
+        if (node.nodeType === Node.ELEMENT_NODE) {
+            Array.from(node.attributes).forEach(attr => {
+                nodeInfo.attributes[attr.name] = attr.value;
+            });
+
+            const computedStyles = window.getComputedStyle(node);
+            const defaultElement = document.createElement(node.nodeName);
+            document.body.appendChild(defaultElement);
+            const defaultStyles = window.getComputedStyle(defaultElement);
+
+            for (let style of computedStyles) {
+                const value = computedStyles.getPropertyValue(style);
+                const defaultValue = defaultStyles.getPropertyValue(style);
+                if (value !== defaultValue) {
+                    nodeInfo.computedStyles[style] = value;
+                }
+            }
+
+            document.body.removeChild(defaultElement);
+
+            const pseudoStates = [':hover', ':active', ':visited', ':focus'];
+            pseudoStates.forEach(state => {
+                const pseudoStyles = window.getComputedStyle(node, state);
+                nodeInfo.pseudoStyles[state] = {};
+                for (let style of pseudoStyles) {
+                    const value = pseudoStyles.getPropertyValue(style);
+                    if (value !== 'none' && value !== 'auto' && value !== 'normal' && value !== '0') {
+                        nodeInfo.pseudoStyles[state][style] = value;
+                    }
+                }
+            });
+        }
+
+        return nodeInfo;
+    });
+
+    global.traverseDOM = jest.fn((node, parentInfo = null) => {
+        const nodeInfo = getNodeInfo(node);
+        nodeInfo.children = Array.from(node.childNodes).map(child => traverseDOM(child, nodeInfo));
+        nodeInfo.parent = parentInfo && parentInfo.nodeName != 'BODY' ? { nodeName: parentInfo.nodeName, nodeType: parentInfo.nodeType } : null;
+
+        if (node.shadowRoot) {
+            nodeInfo.shadowRoot = Array.from(node.shadowRoot.childNodes).map(child => traverseDOM(child, nodeInfo));
+            nodeInfo.shadowRoot.forEach(childNodeInfo => {
+                if (childNodeInfo.nodeType === Node.ELEMENT_NODE) {
+                    const shadowComputedStyles = window.getComputedStyle(childNodeInfo.node);
+                    const shadowDefaultElement = document.createElement(childNodeInfo.nodeName);
+                    document.body.appendChild(shadowDefaultElement);
+                    const shadowDefaultStyles = window.getComputedStyle(shadowDefaultElement);
+
+                    for (let style of shadowComputedStyles) {
+                        const value = shadowComputedStyles.getPropertyValue(style);
+                        const defaultValue = shadowDefaultStyles.getPropertyValue(style);
+                        if (value !== defaultValue) {
+                            childNodeInfo.computedStyles[style] = value;
+                        }
+                    }
+
+                    document.body.removeChild(shadowDefaultElement);
+                }
+            });
+        }
+
+        return nodeInfo;
+    });
+
+    global.executeScripts = jest.fn((iframeDoc) => {
+        return new Promise((resolve) => {
+            const scriptTags = Array.from(iframeDoc.querySelectorAll('script'));
+            let loadedScripts = 0;
+            scriptTags.forEach((scriptTag) => {
+                const scriptElement = iframeDoc.createElement('script');
+                if (scriptTag.type) scriptElement.type = scriptTag.type;
+                if (scriptTag.src) {
+                    scriptElement.src = scriptTag.src;
+                    scriptElement.onload = () => {
+                        loadedScripts += 1;
+                        if (loadedScripts === scriptTags.length) resolve();
+                    };
+                } else {
+                    scriptElement.textContent = scriptTag.textContent;
+                    loadedScripts += 1;
+                }
+                iframeDoc.head.appendChild(scriptElement);
+                scriptTag.remove();
+            });
+            if (loadedScripts === scriptTags.length) resolve();
+        });
+    });
+});
+
+test('should update state when pattern name input changes', () => {
+    const patternNameInput = document.getElementById('patternName');
+    patternNameInput.value = 'Test Pattern';
+    patternNameInput.dispatchEvent(new Event('input'));
+    expect(updateState).toHaveBeenCalledWith({ patternName: 'Test Pattern' });
+});
+
+test('should update state when pattern source radio button changes', () => {
+    const gcWebRadio = document.querySelector('input[name="patternSource"][value="GCWeb"]');
+    gcWebRadio.checked = true;
+    gcWebRadio.dispatchEvent(new Event('change'));
+    expect(updateState).toHaveBeenCalledWith({ patternSource: 'GCWeb' });
+
+    const gcdsRadio = document.querySelector('input[name="patternSource"][value="GCDS"]');
+    gcdsRadio.checked = true;
+    gcdsRadio.dispatchEvent(new Event('change'));
+    expect(updateState).toHaveBeenCalledWith({ patternSource: 'GCDS' });
+});
+
+test('should update state when content textarea changes', () => {
+    const contentTextarea = document.getElementById('content');
+    contentTextarea.value = '<p>Test Content</p>';
+    contentTextarea.dispatchEvent(new Event('input'));
+    expect(updateState).toHaveBeenCalledWith({ content: '<p>Test Content</p>' });
+});
+
+test('should render UI and export JSON when export button is clicked', async () => {
+    updateState({
+        patternName: 'Test Pattern',
+        patternSource: 'GCWeb',
+        content: '<p>Test Content</p>'
+    });
+
+    const exportButton = document.getElementById('exportButton');
+    exportButton.dispatchEvent(new Event('click'));
+
+    expect(handleExportButtonClick).toHaveBeenCalled();
+    await handleExportButtonClick();
+
+    expect(renderUI).toHaveBeenCalled();
+    expect(executeScripts).toHaveBeenCalled();
+    expect(traverseDOM).toHaveBeenCalled();
+    expect(updateState).toHaveBeenCalledWith(expect.objectContaining({
+        jsonData: expect.any(String)
+    }));
+    expect(document.getElementById('jsonPreview').textContent).toEqual(state.jsonData);
+});

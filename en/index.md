@@ -8,7 +8,7 @@ title: Mandatory elements
 
     <h2>Todo</h2>
     <div class="checkbox gc-chckbxrdio">
-      <input id="todo1" type="checkbox" /><label for="todo1">Decide on the format of the rationale</label>
+      <input id="todo1" type="checkbox" checked /><label for="todo1">Decide on the format of the rationale</label>
     </div>
     <div class="checkbox gc-chckbxrdio">
       <input id="todo2" type="checkbox" /><label for="todo2">Add the rationale to the documentation of each pattern</label>
@@ -19,11 +19,11 @@ title: Mandatory elements
     <div class="checkbox gc-chckbxrdio">
       <input id="todo4" type="checkbox" /><label for="todo4">Figure out how to manage multiple languages (English and French)</label>
     </div>
-
+    <p>Link to the <a href="parser.html">parser</a></p>
     <h2>Table of mandatory elements</h2>
     {% for collection in site.collections %}
       {%- unless collection.label contains "posts" -%}
-    <table class="table">
+    <table class="wb-tables table mrgn-bttm-lg" data-wb-tables='{"ordering" : true, "dom":"<>"}'>
       <caption class="bg-info text-left">{{ collection.label }}</caption>
       <thead>
         <tr>
