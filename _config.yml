@@ -1,0 +1,36 @@
+# Jekyll configuration file
+
+baseurl: "gcds-gcweb/"
+collections_dir: patterns
+collections:
+  components:
+    permalink: "en/:collection/:name"
+    output: true
+  styles:
+    permalink: "en/:collection/:name"
+    output: true
+  templates:
+    permalink: "en/:collection/:name"
+    output: true
+  layouts:
+    permalink: "en/:collection/:name"
+    output: true
+plugins:
+  - jekyll-remote-theme
+remote_theme: wet-boew/gcweb-jekyll
+title: Canada.ca GC mandatory elements - differences between Canada.ca DS and GC Design System + Rationale
+
+# Page front matter defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: ../../assets/css/overrides.css
+      layout: default
+  - scope:
+      path: "_components"
+    values:
+      breadcrumbs:
+      - title: Mandatory elements
+        link: "/en/"
+      lang: en
