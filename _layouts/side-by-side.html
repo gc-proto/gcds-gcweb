@@ -17,6 +17,11 @@ layout: default
   <dd><span class="label label-warning mrgn-lft-sm">{{ page.status }}</span></dd>
   <dt>{{ side-by-side.dependencies[ page.lang ] }}</dt>
   <dd><span class="label label-info mrgn-lft-sm">{{ page.dependency }}</span></dd>
+  <dt>{{ side-by-side.zenhub-ticket[ page.lang ] }}</dt>
+  <dd><a href="https://app.zenhub.com/workspaces/design-system-6100624a19f4cf000e46e458/issues/gh/cds-snc/design-gc-conception/{{ page.zenhub-issue }}">#{{ page.zenhub-issue | default: "not available" }}</a></dd>
+  <dt>{{ side-by-side.alignment[ page.lang ] }}</dt>
+  <dd><meter value="{{ page.alignment }}" max="100"></meter><!--<br>
+      <span class="text-left">Misaligned</span><span class="text-center">Neutral</span><span class="text-right">Strongly aligned</span>--></dd>
 </dl>
 <div class="row wb-eqht">
   <div class="col-md-6">
@@ -87,37 +92,14 @@ layout: default
         {% endif %}
         <dt>{{ side-by-side.child-nodes[ page.lang ] }}</dt>
         <dd>
-          {% if component.gcweb.children.size > 1 %}
-            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcweb.children | size }}</code> {{ side-by-side.child-nodes[ page.lang ] | downcase }}
+          {% assign dom = component.gcweb.children %}
+          {% if dom.size > 1 %}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ dom | size }}</code> {{ side-by-side.child-nodes[ page.lang ] | downcase }}
           {% else %}
-            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcweb.children | size }}</code> {{ side-by-side.child-node[ page.lang ] | downcase }}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ dom | size }}</code> {{ side-by-side.child-node[ page.lang ] | downcase }}
           {% endif %}
           <ul>
-          {% for child in component.gcweb.children %}
-            {% case child.nodeType %}
-              {% when 1 %}
-            <li>
-              <code>&lt;{{ child.nodeName | downcase }}&gt;</code><br>
-              <ul>
-              {% for rule in child.computedStyles %}
-                <li>{{ rule[0] }}: 
-                  {% if rule[1] contains "rgb" %}
-                    <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
-                  {% else %}
-                    <code>{{ rule[1] }}</code>
-                  {% endif %}
-                </li>
-              {% endfor %}
-              </ul>
-            </li>
-              {% when 2 %}
-            <li><code>{{ child.nodeName }}</code></li>
-              {% when 3 %}
-            <li><code>{{ child.nodeName | remove_first: '#' }}</code></li>
-              {% else %}
-            <li>{{ child.nodeName }}</li>
-            {% endcase %}
-          {% endfor %}
+            {% include recursive_list.liquid items=dom %}
           </ul>
         </dd>
       </dl> 
@@ -169,37 +151,14 @@ layout: default
         {% endif %}
         <dt>{{ side-by-side.child-nodes[ page.lang ] }}</dt>
         <dd>
-          {% if component.gcds.shadowRoot[0].children.size > 1 %}
-            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcds.shadowRoot[0].children | size }}</code> {{ side-by-side.child-nodes[ page.lang ] | downcase }}
+          {% assign shadowDom = component.gcds.shadowRoot[0].children %}
+          {% if shadowDom.size > 1 %}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ shadowDom | size }}</code> {{ side-by-side.child-nodes[ page.lang ] | downcase }}
           {% else %}
-            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcds.shadowRoot[0].children | size }}</code> {{ side-by-side.child-node[ page.lang ] | downcase }}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ shadowDom | size }}</code> {{ side-by-side.child-node[ page.lang ] | downcase }}
           {% endif %}
           <ul>
-          {% for child in component.gcds.shadowRoot[0].children %}
-            {% case child.nodeType %}
-              {% when 1 %}
-            <li>
-              <code>&lt;{{ child.nodeName | downcase }}&gt;</code><br>
-              <ul>
-                {% for rule in child.computedStyles %}
-                  <li>{{ rule[0] }}: 
-                    {% if rule[1] contains "rgb" %}
-                      <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
-                    {% else %}
-                      <code>{{ rule[1] }}</code>
-                    {% endif %}
-                  </li>
-                {% endfor %}
-                </ul>
-            </li>
-              {% when 2 %}
-            <li><code>{{ child.nodeName }}</code></li>
-              {% when 3 %}
-            <li><code>{{ child.nodeName | remove_first: '#' }}</code></li>
-              {% else %}
-            <li>{{ child.nodeName }}</li>
-            {% endcase %}
-          {% endfor %}
+            {% include recursive_list.liquid items=shadowDom %}
           </ul>
         </dd>
       </dl> 

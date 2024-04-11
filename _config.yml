@@ -24,8 +24,9 @@ defaults:
   - scope:
       path: ""
     values:
-      css: ../../assets/css/overrides.css
+      css: /gcds-gcweb/assets/css/overrides.css
       layout: default
+      script: /gcds-gcweb/assets/js/scripts.js
   - scope:
       path: "_components"
     values:

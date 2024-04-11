@@ -1,0 +1,1590 @@
+{
+  "gcweb": {
+    "nodeType": 1,
+    "nodeName": "NAV",
+    "textContent": "",
+    "attributes": {
+      "id": "wb-bc",
+      "property": "breadcrumb"
+    },
+    "computedStyles": {
+      "block-size": "44.5px",
+      "height": "44.5px",
+      "inline-size": "555px",
+      "perspective-origin": "277.5px 22.25px",
+      "transform-origin": "277.5px 22.25px",
+      "width": "555px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 1,
+        "nodeName": "H2",
+        "textContent": "",
+        "attributes": {},
+        "computedStyles": {
+          "block-size": "1px",
+          "bottom": "284px",
+          "clip": "rect(1px, 1px, 1px, 1px)",
+          "font-size": "25.6px",
+          "height": "1px",
+          "inline-size": "1px",
+          "inset-block-end": "284px",
+          "inset-block-start": "15px",
+          "inset-inline-end": "554px",
+          "inset-inline-start": "0px",
+          "left": "0px",
+          "line-height": "28.16px",
+          "margin-block-end": "0px",
+          "margin-block-start": "0px",
+          "margin-bottom": "0px",
+          "margin-top": "0px",
+          "overflow-x": "hidden",
+          "overflow-y": "hidden",
+          "perspective-origin": "0.5px 0.5px",
+          "position": "absolute",
+          "right": "554px",
+          "top": "15px",
+          "transform-origin": "0.5px 0.5px",
+          "width": "1px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "You are here:",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "H2",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "NAV",
+          "nodeType": 1
+        }
+      },
+      {
+        "nodeType": 1,
+        "nodeName": "OL",
+        "textContent": "",
+        "attributes": {
+          "class": "breadcrumb",
+          "typeof": "BreadcrumbList",
+          "style": "font-size: 16px"
+        },
+        "computedStyles": {
+          "block-size": "44.5px",
+          "height": "44.5px",
+          "inline-size": "555px",
+          "list-style-type": "none",
+          "margin-block-end": "0px",
+          "margin-block-start": "15px",
+          "margin-bottom": "0px",
+          "margin-top": "15px",
+          "padding-block-end": "1px",
+          "padding-block-start": "1px",
+          "padding-bottom": "1px",
+          "padding-inline-start": "0px",
+          "padding-left": "0px",
+          "padding-top": "1px",
+          "perspective-origin": "277.5px 22.25px",
+          "transform-origin": "277.5px 22.25px",
+          "width": "555px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "LI",
+            "textContent": "",
+            "attributes": {
+              "property": "itemListElement",
+              "typeof": "ListItem"
+            },
+            "computedStyles": {
+              "block-size": "37px",
+              "display": "inline-block",
+              "height": "37px",
+              "inline-size": "81.7188px",
+              "list-style-type": "none",
+              "max-inline-size": "100%",
+              "max-width": "100%",
+              "overflow-x": "hidden",
+              "overflow-y": "hidden",
+              "padding-block-end": "7px",
+              "padding-block-start": "7px",
+              "padding-bottom": "7px",
+              "padding-inline-end": "2px",
+              "padding-inline-start": "2px",
+              "padding-left": "2px",
+              "padding-right": "2px",
+              "padding-top": "7px",
+              "perspective-origin": "40.8594px 18.5px",
+              "text-overflow": "ellipsis",
+              "text-wrap": "nowrap",
+              "transform-origin": "40.8594px 18.5px",
+              "width": "81.7188px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "property": "item",
+                  "typeof": "WebPage",
+                  "href": "https://www.canada.ca/en.html"
+                },
+                "computedStyles": {
+                  "border-block-end-color": "rgb(40, 65, 98)",
+                  "border-block-start-color": "rgb(40, 65, 98)",
+                  "border-bottom-color": "rgb(40, 65, 98)",
+                  "border-inline-end-color": "rgb(40, 65, 98)",
+                  "border-inline-start-color": "rgb(40, 65, 98)",
+                  "border-left-color": "rgb(40, 65, 98)",
+                  "border-right-color": "rgb(40, 65, 98)",
+                  "border-top-color": "rgb(40, 65, 98)",
+                  "caret-color": "rgb(40, 65, 98)",
+                  "color": "rgb(40, 65, 98)",
+                  "column-rule-color": "rgb(40, 65, 98)",
+                  "cursor": "pointer",
+                  "list-style-type": "none",
+                  "outline-color": "rgb(40, 65, 98)",
+                  "padding-block-end": "5px",
+                  "padding-block-start": "5px",
+                  "padding-bottom": "5px",
+                  "padding-top": "5px",
+                  "text-align": "left",
+                  "text-decoration": "underline solid rgb(40, 65, 98)",
+                  "text-decoration-color": "rgb(40, 65, 98)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(40, 65, 98)",
+                  "text-wrap": "nowrap",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                  "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SPAN",
+                    "textContent": "",
+                    "attributes": {
+                      "property": "name"
+                    },
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(40, 65, 98)",
+                      "border-block-start-color": "rgb(40, 65, 98)",
+                      "border-bottom-color": "rgb(40, 65, 98)",
+                      "border-inline-end-color": "rgb(40, 65, 98)",
+                      "border-inline-start-color": "rgb(40, 65, 98)",
+                      "border-left-color": "rgb(40, 65, 98)",
+                      "border-right-color": "rgb(40, 65, 98)",
+                      "border-top-color": "rgb(40, 65, 98)",
+                      "caret-color": "rgb(40, 65, 98)",
+                      "color": "rgb(40, 65, 98)",
+                      "column-rule-color": "rgb(40, 65, 98)",
+                      "cursor": "pointer",
+                      "list-style-type": "none",
+                      "outline-color": "rgb(40, 65, 98)",
+                      "text-align": "left",
+                      "text-decoration": "none solid rgb(40, 65, 98)",
+                      "text-decoration-color": "rgb(40, 65, 98)",
+                      "text-emphasis-color": "rgb(40, 65, 98)",
+                      "text-wrap": "nowrap",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                      "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 3,
+                        "nodeName": "#text",
+                        "textContent": "Canada.ca",
+                        "attributes": {},
+                        "computedStyles": {},
+                        "pseudoStyles": {},
+                        "children": [],
+                        "parent": {
+                          "nodeName": "SPAN",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "META",
+                "textContent": "",
+                "attributes": {
+                  "property": "position",
+                  "content": "1"
+                },
+                "computedStyles": {
+                  "list-style-type": "none",
+                  "text-align": "left",
+                  "text-wrap": "nowrap",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "OL",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "LI",
+            "textContent": "",
+            "attributes": {
+              "property": "itemListElement",
+              "typeof": "ListItem"
+            },
+            "computedStyles": {
+              "block-size": "37px",
+              "display": "inline-block",
+              "height": "37px",
+              "inline-size": "106.57px",
+              "list-style-type": "none",
+              "max-inline-size": "100%",
+              "max-width": "100%",
+              "overflow-x": "hidden",
+              "overflow-y": "hidden",
+              "padding-block-end": "7px",
+              "padding-block-start": "7px",
+              "padding-bottom": "7px",
+              "padding-inline-end": "2px",
+              "padding-inline-start": "2px",
+              "padding-left": "2px",
+              "padding-right": "2px",
+              "padding-top": "7px",
+              "perspective-origin": "53.2812px 18.5px",
+              "text-overflow": "ellipsis",
+              "text-wrap": "nowrap",
+              "transform-origin": "53.2852px 18.5px",
+              "width": "106.57px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "property": "item",
+                  "typeof": "WebPage",
+                  "href": "#"
+                },
+                "computedStyles": {
+                  "border-block-end-color": "rgb(40, 65, 98)",
+                  "border-block-start-color": "rgb(40, 65, 98)",
+                  "border-bottom-color": "rgb(40, 65, 98)",
+                  "border-inline-end-color": "rgb(40, 65, 98)",
+                  "border-inline-start-color": "rgb(40, 65, 98)",
+                  "border-left-color": "rgb(40, 65, 98)",
+                  "border-right-color": "rgb(40, 65, 98)",
+                  "border-top-color": "rgb(40, 65, 98)",
+                  "caret-color": "rgb(40, 65, 98)",
+                  "color": "rgb(40, 65, 98)",
+                  "column-rule-color": "rgb(40, 65, 98)",
+                  "cursor": "pointer",
+                  "list-style-type": "none",
+                  "outline-color": "rgb(40, 65, 98)",
+                  "padding-block-end": "5px",
+                  "padding-block-start": "5px",
+                  "padding-bottom": "5px",
+                  "padding-top": "5px",
+                  "text-align": "left",
+                  "text-decoration": "underline solid rgb(40, 65, 98)",
+                  "text-decoration-color": "rgb(40, 65, 98)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(40, 65, 98)",
+                  "text-wrap": "nowrap",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                  "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SPAN",
+                    "textContent": "",
+                    "attributes": {
+                      "property": "name"
+                    },
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(40, 65, 98)",
+                      "border-block-start-color": "rgb(40, 65, 98)",
+                      "border-bottom-color": "rgb(40, 65, 98)",
+                      "border-inline-end-color": "rgb(40, 65, 98)",
+                      "border-inline-start-color": "rgb(40, 65, 98)",
+                      "border-left-color": "rgb(40, 65, 98)",
+                      "border-right-color": "rgb(40, 65, 98)",
+                      "border-top-color": "rgb(40, 65, 98)",
+                      "caret-color": "rgb(40, 65, 98)",
+                      "color": "rgb(40, 65, 98)",
+                      "column-rule-color": "rgb(40, 65, 98)",
+                      "cursor": "pointer",
+                      "list-style-type": "none",
+                      "outline-color": "rgb(40, 65, 98)",
+                      "text-align": "left",
+                      "text-decoration": "none solid rgb(40, 65, 98)",
+                      "text-decoration-color": "rgb(40, 65, 98)",
+                      "text-emphasis-color": "rgb(40, 65, 98)",
+                      "text-wrap": "nowrap",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                      "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 3,
+                        "nodeName": "#text",
+                        "textContent": "Home page",
+                        "attributes": {},
+                        "computedStyles": {},
+                        "pseudoStyles": {},
+                        "children": [],
+                        "parent": {
+                          "nodeName": "SPAN",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "META",
+                "textContent": "",
+                "attributes": {
+                  "property": "position",
+                  "content": "2"
+                },
+                "computedStyles": {
+                  "list-style-type": "none",
+                  "text-align": "left",
+                  "text-wrap": "nowrap",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "OL",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "LI",
+            "textContent": "",
+            "attributes": {
+              "property": "itemListElement",
+              "typeof": "ListItem"
+            },
+            "computedStyles": {
+              "block-size": "37px",
+              "display": "inline-block",
+              "height": "37px",
+              "inline-size": "141.688px",
+              "list-style-type": "none",
+              "max-inline-size": "100%",
+              "max-width": "100%",
+              "overflow-x": "hidden",
+              "overflow-y": "hidden",
+              "padding-block-end": "7px",
+              "padding-block-start": "7px",
+              "padding-bottom": "7px",
+              "padding-inline-end": "2px",
+              "padding-inline-start": "2px",
+              "padding-left": "2px",
+              "padding-right": "2px",
+              "padding-top": "7px",
+              "perspective-origin": "70.8438px 18.5px",
+              "text-overflow": "ellipsis",
+              "text-wrap": "nowrap",
+              "transform-origin": "70.8438px 18.5px",
+              "width": "141.688px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "property": "item",
+                  "typeof": "WebPage",
+                  "href": "#"
+                },
+                "computedStyles": {
+                  "border-block-end-color": "rgb(40, 65, 98)",
+                  "border-block-start-color": "rgb(40, 65, 98)",
+                  "border-bottom-color": "rgb(40, 65, 98)",
+                  "border-inline-end-color": "rgb(40, 65, 98)",
+                  "border-inline-start-color": "rgb(40, 65, 98)",
+                  "border-left-color": "rgb(40, 65, 98)",
+                  "border-right-color": "rgb(40, 65, 98)",
+                  "border-top-color": "rgb(40, 65, 98)",
+                  "caret-color": "rgb(40, 65, 98)",
+                  "color": "rgb(40, 65, 98)",
+                  "column-rule-color": "rgb(40, 65, 98)",
+                  "cursor": "pointer",
+                  "list-style-type": "none",
+                  "outline-color": "rgb(40, 65, 98)",
+                  "padding-block-end": "5px",
+                  "padding-block-start": "5px",
+                  "padding-bottom": "5px",
+                  "padding-top": "5px",
+                  "text-align": "left",
+                  "text-decoration": "underline solid rgb(40, 65, 98)",
+                  "text-decoration-color": "rgb(40, 65, 98)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(40, 65, 98)",
+                  "text-wrap": "nowrap",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                  "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SPAN",
+                    "textContent": "",
+                    "attributes": {
+                      "property": "name"
+                    },
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(40, 65, 98)",
+                      "border-block-start-color": "rgb(40, 65, 98)",
+                      "border-bottom-color": "rgb(40, 65, 98)",
+                      "border-inline-end-color": "rgb(40, 65, 98)",
+                      "border-inline-start-color": "rgb(40, 65, 98)",
+                      "border-left-color": "rgb(40, 65, 98)",
+                      "border-right-color": "rgb(40, 65, 98)",
+                      "border-top-color": "rgb(40, 65, 98)",
+                      "caret-color": "rgb(40, 65, 98)",
+                      "color": "rgb(40, 65, 98)",
+                      "column-rule-color": "rgb(40, 65, 98)",
+                      "cursor": "pointer",
+                      "list-style-type": "none",
+                      "outline-color": "rgb(40, 65, 98)",
+                      "text-align": "left",
+                      "text-decoration": "none solid rgb(40, 65, 98)",
+                      "text-decoration-color": "rgb(40, 65, 98)",
+                      "text-emphasis-color": "rgb(40, 65, 98)",
+                      "text-wrap": "nowrap",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                      "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 3,
+                        "nodeName": "#text",
+                        "textContent": "Parent page link",
+                        "attributes": {},
+                        "computedStyles": {},
+                        "pseudoStyles": {},
+                        "children": [],
+                        "parent": {
+                          "nodeName": "SPAN",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "META",
+                "textContent": "",
+                "attributes": {
+                  "property": "position",
+                  "content": "3"
+                },
+                "computedStyles": {
+                  "list-style-type": "none",
+                  "text-align": "left",
+                  "text-wrap": "nowrap",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "OL",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "NAV",
+          "nodeType": 1
+        }
+      }
+    ],
+    "parent": null,
+    "html": "<nav id=\"wb-bc\" property=\"breadcrumb\"><h2>You are here:</h2><ol class=\"breadcrumb\" typeof=\"BreadcrumbList\" style=\"font-size: 16px\"><li property=\"itemListElement\" typeof=\"ListItem\"><a property=\"item\" typeof=\"WebPage\" href=\"https://www.canada.ca/en.html\"><span property=\"name\">Canada.ca</span></a><meta property=\"position\" content=\"1\"></li><li property=\"itemListElement\" typeof=\"ListItem\"><a property=\"item\" typeof=\"WebPage\" href=\"#\"><span property=\"name\">Home page</span></a><meta property=\"position\" content=\"2\"></li><li property=\"itemListElement\" typeof=\"ListItem\"><a property=\"item\" typeof=\"WebPage\" href=\"#\"><span property=\"name\">Parent page link</span></a><meta property=\"position\" content=\"3\"></li></ol></nav>"
+  },
+  "gcds": {
+    "nodeType": 1,
+    "nodeName": "GCDS-BREADCRUMBS",
+    "textContent": "",
+    "attributes": {
+      "class": "hydrated"
+    },
+    "computedStyles": {
+      "block-size": "33.75px",
+      "display": "block",
+      "height": "33.75px",
+      "inline-size": "555px",
+      "perspective-origin": "277.5px 16.875px",
+      "transform-origin": "277.5px 16.875px",
+      "visibility": "visible",
+      "width": "555px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 1,
+        "nodeName": "GCDS-BREADCRUMBS-ITEM",
+        "textContent": "",
+        "attributes": {
+          "href": "#",
+          "role": "listitem",
+          "class": "gcds-breadcrumbs-item hydrated"
+        },
+        "computedStyles": {
+          "block-size": "33.75px",
+          "bottom": "0px",
+          "display": "inline-block",
+          "height": "33.75px",
+          "inline-size": "73.3594px",
+          "inset-block-end": "0px",
+          "inset-block-start": "0px",
+          "inset-inline-end": "0px",
+          "inset-inline-start": "0px",
+          "left": "0px",
+          "list-style-type": "none",
+          "padding-inline-start": "15px",
+          "padding-left": "15px",
+          "perspective-origin": "36.6797px 16.875px",
+          "position": "relative",
+          "right": "0px",
+          "top": "0px",
+          "transform-origin": "36.6797px 16.875px",
+          "visibility": "visible",
+          "width": "73.3594px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "Home page",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "GCDS-BREADCRUMBS-ITEM",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "GCDS-BREADCRUMBS",
+          "nodeType": 1
+        },
+        "shadowRoot": [
+          {
+            "nodeType": 1,
+            "nodeName": "GCDS-LINK",
+            "textContent": "",
+            "attributes": {
+              "class": "hydrated"
+            },
+            "computedStyles": {
+              "block-size": "33.75px",
+              "box-sizing": "content-box",
+              "display": "inline-block",
+              "height": "33.75px",
+              "inline-size": "58.3594px",
+              "list-style-type": "none",
+              "perspective-origin": "29.1797px 16.875px",
+              "transform-origin": "29.1797px 16.875px",
+              "visibility": "visible",
+              "width": "58.3594px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "SLOT",
+                "textContent": "",
+                "attributes": {},
+                "computedStyles": {
+                  "block-size": "15px",
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "display": "block",
+                  "font-size": "10px",
+                  "height": "15px",
+                  "inline-size": "54.6094px",
+                  "line-height": "15px",
+                  "list-style-type": "none",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "perspective-origin": "27.3047px 7.5px",
+                  "text-decoration": "none solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "transform-origin": "27.3047px 7.5px",
+                  "width": "54.6094px",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "GCDS-BREADCRUMBS-ITEM",
+              "nodeType": 1
+            },
+            "shadowRoot": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "role": "link",
+                  "tabindex": "0",
+                  "href": "#",
+                  "target": "_self",
+                  "class": "gcds-link link--regular",
+                  "part": "link"
+                },
+                "computedStyles": {
+                  "block-size": "15px",
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "font-size": "10px",
+                  "height": "15px",
+                  "inline-size": "54.6094px",
+                  "line-height": "15px",
+                  "list-style-type": "none",
+                  "margin-block-end": "7.5px",
+                  "margin-block-start": "7.5px",
+                  "margin-bottom": "7.5px",
+                  "margin-top": "7.5px",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "padding-block-end": "1.875px",
+                  "padding-block-start": "1.875px",
+                  "padding-bottom": "1.875px",
+                  "padding-inline-end": "1.875px",
+                  "padding-inline-start": "1.875px",
+                  "padding-left": "1.875px",
+                  "padding-right": "1.875px",
+                  "padding-top": "1.875px",
+                  "perspective-origin": "29.1797px 9.375px",
+                  "text-decoration": "underline 0.625px solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "transform-origin": "29.1797px 9.375px",
+                  "transition-duration": "0.35s",
+                  "width": "54.6094px",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SLOT",
+                    "textContent": "",
+                    "attributes": {},
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(43, 67, 128)",
+                      "border-block-start-color": "rgb(43, 67, 128)",
+                      "border-bottom-color": "rgb(43, 67, 128)",
+                      "border-inline-end-color": "rgb(43, 67, 128)",
+                      "border-inline-start-color": "rgb(43, 67, 128)",
+                      "border-left-color": "rgb(43, 67, 128)",
+                      "border-right-color": "rgb(43, 67, 128)",
+                      "border-top-color": "rgb(43, 67, 128)",
+                      "box-sizing": "content-box",
+                      "caret-color": "rgb(43, 67, 128)",
+                      "color": "rgb(43, 67, 128)",
+                      "column-rule-color": "rgb(43, 67, 128)",
+                      "cursor": "pointer",
+                      "display": "inline",
+                      "font-size": "10px",
+                      "line-height": "15px",
+                      "list-style-type": "none",
+                      "outline-color": "rgb(43, 67, 128)",
+                      "perspective-origin": "0px 0px",
+                      "text-decoration": "none solid rgb(43, 67, 128)",
+                      "text-decoration-color": "rgb(43, 67, 128)",
+                      "text-emphasis-color": "rgb(43, 67, 128)",
+                      "transform-origin": "0px 0px",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                      "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nodeType": 1,
+        "nodeName": "GCDS-BREADCRUMBS-ITEM",
+        "textContent": "",
+        "attributes": {
+          "href": "#",
+          "role": "listitem",
+          "class": "gcds-breadcrumbs-item hydrated"
+        },
+        "computedStyles": {
+          "block-size": "33.75px",
+          "bottom": "0px",
+          "display": "inline-block",
+          "height": "33.75px",
+          "inline-size": "95.3047px",
+          "inset-block-end": "0px",
+          "inset-block-start": "0px",
+          "inset-inline-end": "0px",
+          "inset-inline-start": "0px",
+          "left": "0px",
+          "list-style-type": "none",
+          "padding-inline-start": "15px",
+          "padding-left": "15px",
+          "perspective-origin": "47.6484px 16.875px",
+          "position": "relative",
+          "right": "0px",
+          "top": "0px",
+          "transform-origin": "47.6523px 16.875px",
+          "visibility": "visible",
+          "width": "95.3047px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "Parent page link",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "GCDS-BREADCRUMBS-ITEM",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "GCDS-BREADCRUMBS",
+          "nodeType": 1
+        },
+        "shadowRoot": [
+          {
+            "nodeType": 1,
+            "nodeName": "GCDS-LINK",
+            "textContent": "",
+            "attributes": {
+              "class": "hydrated"
+            },
+            "computedStyles": {
+              "block-size": "33.75px",
+              "box-sizing": "content-box",
+              "display": "inline-block",
+              "height": "33.75px",
+              "inline-size": "80.3047px",
+              "list-style-type": "none",
+              "perspective-origin": "40.1484px 16.875px",
+              "transform-origin": "40.1523px 16.875px",
+              "visibility": "visible",
+              "width": "80.3047px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "SLOT",
+                "textContent": "",
+                "attributes": {},
+                "computedStyles": {
+                  "block-size": "15px",
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "display": "block",
+                  "font-size": "10px",
+                  "height": "15px",
+                  "inline-size": "76.5547px",
+                  "line-height": "15px",
+                  "list-style-type": "none",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "perspective-origin": "38.2734px 7.5px",
+                  "text-decoration": "none solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "transform-origin": "38.2773px 7.5px",
+                  "width": "76.5547px",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "GCDS-BREADCRUMBS-ITEM",
+              "nodeType": 1
+            },
+            "shadowRoot": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "role": "link",
+                  "tabindex": "0",
+                  "href": "#",
+                  "target": "_self",
+                  "class": "gcds-link link--regular",
+                  "part": "link"
+                },
+                "computedStyles": {
+                  "block-size": "15px",
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "font-size": "10px",
+                  "height": "15px",
+                  "inline-size": "76.5547px",
+                  "line-height": "15px",
+                  "list-style-type": "none",
+                  "margin-block-end": "7.5px",
+                  "margin-block-start": "7.5px",
+                  "margin-bottom": "7.5px",
+                  "margin-top": "7.5px",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "padding-block-end": "1.875px",
+                  "padding-block-start": "1.875px",
+                  "padding-bottom": "1.875px",
+                  "padding-inline-end": "1.875px",
+                  "padding-inline-start": "1.875px",
+                  "padding-left": "1.875px",
+                  "padding-right": "1.875px",
+                  "padding-top": "1.875px",
+                  "perspective-origin": "40.1484px 9.375px",
+                  "text-decoration": "underline 0.625px solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "transform-origin": "40.1523px 9.375px",
+                  "transition-duration": "0.35s",
+                  "width": "76.5547px",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SLOT",
+                    "textContent": "",
+                    "attributes": {},
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(43, 67, 128)",
+                      "border-block-start-color": "rgb(43, 67, 128)",
+                      "border-bottom-color": "rgb(43, 67, 128)",
+                      "border-inline-end-color": "rgb(43, 67, 128)",
+                      "border-inline-start-color": "rgb(43, 67, 128)",
+                      "border-left-color": "rgb(43, 67, 128)",
+                      "border-right-color": "rgb(43, 67, 128)",
+                      "border-top-color": "rgb(43, 67, 128)",
+                      "box-sizing": "content-box",
+                      "caret-color": "rgb(43, 67, 128)",
+                      "color": "rgb(43, 67, 128)",
+                      "column-rule-color": "rgb(43, 67, 128)",
+                      "cursor": "pointer",
+                      "display": "inline",
+                      "font-size": "10px",
+                      "line-height": "15px",
+                      "list-style-type": "none",
+                      "outline-color": "rgb(43, 67, 128)",
+                      "perspective-origin": "0px 0px",
+                      "text-decoration": "none solid rgb(43, 67, 128)",
+                      "text-decoration-color": "rgb(43, 67, 128)",
+                      "text-emphasis-color": "rgb(43, 67, 128)",
+                      "transform-origin": "0px 0px",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                      "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parent": null,
+    "shadowRoot": [
+      {
+        "nodeType": 1,
+        "nodeName": "NAV",
+        "textContent": "",
+        "attributes": {
+          "aria-label": "Breadcrumb",
+          "class": "gcds-breadcrumbs"
+        },
+        "computedStyles": {
+          "block-size": "33.75px",
+          "box-sizing": "content-box",
+          "height": "33.75px",
+          "inline-size": "555px",
+          "perspective-origin": "277.5px 16.875px",
+          "transform-origin": "277.5px 16.875px",
+          "width": "555px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "OL",
+            "textContent": "",
+            "attributes": {
+              "class": "has-canada-link"
+            },
+            "computedStyles": {
+              "block-size": "33.75px",
+              "box-sizing": "content-box",
+              "height": "33.75px",
+              "inline-size": "555px",
+              "list-style-type": "none",
+              "margin-block-end": "0px",
+              "margin-bottom": "0px",
+              "margin-inline-start": "-3.75px",
+              "margin-left": "-3.75px",
+              "overflow-x": "hidden",
+              "overflow-y": "auto",
+              "padding-inline-start": "3.75px",
+              "padding-left": "3.75px",
+              "perspective-origin": "279.375px 16.875px",
+              "transform-origin": "279.375px 16.875px",
+              "width": "555px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "GCDS-BREADCRUMBS-ITEM",
+                "textContent": "",
+                "attributes": {
+                  "role": "listitem",
+                  "class": "gcds-breadcrumbs-item hydrated"
+                },
+                "computedStyles": {
+                  "block-size": "33.75px",
+                  "bottom": "0px",
+                  "box-sizing": "content-box",
+                  "display": "inline-block",
+                  "height": "33.75px",
+                  "inline-size": "52.3281px",
+                  "inset-block-end": "0px",
+                  "inset-block-start": "0px",
+                  "inset-inline-end": "0px",
+                  "inset-inline-start": "0px",
+                  "left": "0px",
+                  "list-style-type": "none",
+                  "margin-inline-start": "-15px",
+                  "margin-left": "-15px",
+                  "padding-inline-start": "15px",
+                  "padding-left": "15px",
+                  "perspective-origin": "33.6641px 16.875px",
+                  "position": "relative",
+                  "right": "0px",
+                  "top": "0px",
+                  "transform-origin": "33.6641px 16.875px",
+                  "visibility": "visible",
+                  "width": "52.3281px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 3,
+                    "nodeName": "#text",
+                    "textContent": "Canada.ca",
+                    "attributes": {},
+                    "computedStyles": {},
+                    "pseudoStyles": {},
+                    "children": [],
+                    "parent": {
+                      "nodeName": "GCDS-BREADCRUMBS-ITEM",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "OL",
+                  "nodeType": 1
+                },
+                "shadowRoot": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "GCDS-LINK",
+                    "textContent": "",
+                    "attributes": {
+                      "class": "hydrated"
+                    },
+                    "computedStyles": {
+                      "block-size": "33.75px",
+                      "box-sizing": "content-box",
+                      "display": "inline-block",
+                      "height": "33.75px",
+                      "inline-size": "52.3281px",
+                      "list-style-type": "none",
+                      "perspective-origin": "26.1641px 16.875px",
+                      "transform-origin": "26.1641px 16.875px",
+                      "visibility": "visible",
+                      "width": "52.3281px",
+                      "-webkit-locale": "auto"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 1,
+                        "nodeName": "SLOT",
+                        "textContent": "",
+                        "attributes": {},
+                        "computedStyles": {
+                          "block-size": "15px",
+                          "border-block-end-color": "rgb(43, 67, 128)",
+                          "border-block-start-color": "rgb(43, 67, 128)",
+                          "border-bottom-color": "rgb(43, 67, 128)",
+                          "border-inline-end-color": "rgb(43, 67, 128)",
+                          "border-inline-start-color": "rgb(43, 67, 128)",
+                          "border-left-color": "rgb(43, 67, 128)",
+                          "border-right-color": "rgb(43, 67, 128)",
+                          "border-top-color": "rgb(43, 67, 128)",
+                          "box-sizing": "content-box",
+                          "caret-color": "rgb(43, 67, 128)",
+                          "color": "rgb(43, 67, 128)",
+                          "column-rule-color": "rgb(43, 67, 128)",
+                          "cursor": "pointer",
+                          "display": "block",
+                          "font-size": "10px",
+                          "height": "15px",
+                          "inline-size": "48.5781px",
+                          "line-height": "15px",
+                          "list-style-type": "none",
+                          "outline-color": "rgb(43, 67, 128)",
+                          "perspective-origin": "24.2891px 7.5px",
+                          "text-decoration": "none solid rgb(43, 67, 128)",
+                          "text-decoration-color": "rgb(43, 67, 128)",
+                          "text-emphasis-color": "rgb(43, 67, 128)",
+                          "transform-origin": "24.2891px 7.5px",
+                          "width": "48.5781px",
+                          "-webkit-locale": "auto",
+                          "-webkit-text-decorations-in-effect": "underline",
+                          "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                          "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                        },
+                        "pseudoStyles": {
+                          ":hover": {},
+                          ":active": {},
+                          ":visited": {},
+                          ":focus": {}
+                        },
+                        "children": [],
+                        "parent": {
+                          "nodeName": "GCDS-LINK",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "GCDS-BREADCRUMBS-ITEM",
+                      "nodeType": 1
+                    },
+                    "shadowRoot": [
+                      {
+                        "nodeType": 1,
+                        "nodeName": "A",
+                        "textContent": "",
+                        "attributes": {
+                          "role": "link",
+                          "tabindex": "0",
+                          "href": "https://www.canada.ca/en.html",
+                          "target": "_self",
+                          "class": "gcds-link link--regular",
+                          "part": "link"
+                        },
+                        "computedStyles": {
+                          "block-size": "15px",
+                          "border-block-end-color": "rgb(43, 67, 128)",
+                          "border-block-start-color": "rgb(43, 67, 128)",
+                          "border-bottom-color": "rgb(43, 67, 128)",
+                          "border-inline-end-color": "rgb(43, 67, 128)",
+                          "border-inline-start-color": "rgb(43, 67, 128)",
+                          "border-left-color": "rgb(43, 67, 128)",
+                          "border-right-color": "rgb(43, 67, 128)",
+                          "border-top-color": "rgb(43, 67, 128)",
+                          "box-sizing": "content-box",
+                          "caret-color": "rgb(43, 67, 128)",
+                          "color": "rgb(43, 67, 128)",
+                          "column-rule-color": "rgb(43, 67, 128)",
+                          "cursor": "pointer",
+                          "display": "inline-block",
+                          "font-size": "10px",
+                          "height": "15px",
+                          "inline-size": "48.5781px",
+                          "line-height": "15px",
+                          "list-style-type": "none",
+                          "margin-block-end": "7.5px",
+                          "margin-block-start": "7.5px",
+                          "margin-bottom": "7.5px",
+                          "margin-top": "7.5px",
+                          "outline-color": "rgb(43, 67, 128)",
+                          "padding-block-end": "1.875px",
+                          "padding-block-start": "1.875px",
+                          "padding-bottom": "1.875px",
+                          "padding-inline-end": "1.875px",
+                          "padding-inline-start": "1.875px",
+                          "padding-left": "1.875px",
+                          "padding-right": "1.875px",
+                          "padding-top": "1.875px",
+                          "perspective-origin": "26.1641px 9.375px",
+                          "text-decoration": "underline 0.625px solid rgb(43, 67, 128)",
+                          "text-decoration-color": "rgb(43, 67, 128)",
+                          "text-decoration-line": "underline",
+                          "text-emphasis-color": "rgb(43, 67, 128)",
+                          "transform-origin": "26.1641px 9.375px",
+                          "transition-duration": "0.35s",
+                          "width": "48.5781px",
+                          "-webkit-locale": "auto",
+                          "-webkit-text-decorations-in-effect": "underline",
+                          "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                          "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                        },
+                        "pseudoStyles": {
+                          ":hover": {},
+                          ":active": {},
+                          ":visited": {},
+                          ":focus": {}
+                        },
+                        "children": [
+                          {
+                            "nodeType": 1,
+                            "nodeName": "SLOT",
+                            "textContent": "",
+                            "attributes": {},
+                            "computedStyles": {
+                              "border-block-end-color": "rgb(43, 67, 128)",
+                              "border-block-start-color": "rgb(43, 67, 128)",
+                              "border-bottom-color": "rgb(43, 67, 128)",
+                              "border-inline-end-color": "rgb(43, 67, 128)",
+                              "border-inline-start-color": "rgb(43, 67, 128)",
+                              "border-left-color": "rgb(43, 67, 128)",
+                              "border-right-color": "rgb(43, 67, 128)",
+                              "border-top-color": "rgb(43, 67, 128)",
+                              "box-sizing": "content-box",
+                              "caret-color": "rgb(43, 67, 128)",
+                              "color": "rgb(43, 67, 128)",
+                              "column-rule-color": "rgb(43, 67, 128)",
+                              "cursor": "pointer",
+                              "display": "inline",
+                              "font-size": "10px",
+                              "line-height": "15px",
+                              "list-style-type": "none",
+                              "outline-color": "rgb(43, 67, 128)",
+                              "perspective-origin": "0px 0px",
+                              "text-decoration": "none solid rgb(43, 67, 128)",
+                              "text-decoration-color": "rgb(43, 67, 128)",
+                              "text-emphasis-color": "rgb(43, 67, 128)",
+                              "transform-origin": "0px 0px",
+                              "-webkit-locale": "auto",
+                              "-webkit-text-decorations-in-effect": "underline",
+                              "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                              "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                            },
+                            "pseudoStyles": {
+                              ":hover": {},
+                              ":active": {},
+                              ":visited": {},
+                              ":focus": {}
+                            },
+                            "children": [],
+                            "parent": {
+                              "nodeName": "A",
+                              "nodeType": 1
+                            }
+                          }
+                        ],
+                        "parent": {
+                          "nodeName": "GCDS-LINK",
+                          "nodeType": 1
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "SLOT",
+                "textContent": "",
+                "attributes": {},
+                "computedStyles": {
+                  "box-sizing": "content-box",
+                  "list-style-type": "none",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "OL",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "NAV",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "GCDS-BREADCRUMBS",
+          "nodeType": 1
+        }
+      }
+    ],
+    "html": "<gcds-breadcrumbs><gcds-breadcrumbs-item href=\"#\">Home page</gcds-breadcrumbs-item><gcds-breadcrumbs-item href=\"#\">Parent page link</gcds-breadcrumbs-item></gcds-breadcrumbs>"
+  }
+}

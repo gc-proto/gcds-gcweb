@@ -46,3 +46,9 @@ contains:
 css-info:
   en: CSS computed info
   fr: Informations calculées CSS
+zenhub-ticket:
+  en: ZenHub issue
+  fr: Ticket ZenHub
+alignment:
+  en: Alignment
+  fr: Alignement

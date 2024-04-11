@@ -1,0 +1,1311 @@
+{
+  "gcweb": {
+    "nodeType": 1,
+    "nodeName": "SECTION",
+    "textContent": "",
+    "attributes": {
+      "id": "wb-srch",
+      "class": "col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-sm-5 col-md-4"
+    },
+    "computedStyles": {
+      "block-size": "53px",
+      "bottom": "0px",
+      "height": "53px",
+      "inline-size": "555px",
+      "inset-block-end": "0px",
+      "inset-block-start": "0px",
+      "inset-inline-end": "0px",
+      "inset-inline-start": "0px",
+      "left": "0px",
+      "min-block-size": "1px",
+      "min-height": "1px",
+      "padding-block-start": "16px",
+      "padding-inline-end": "15px",
+      "padding-inline-start": "15px",
+      "padding-left": "15px",
+      "padding-right": "15px",
+      "padding-top": "16px",
+      "perspective-origin": "277.5px 26.5px",
+      "position": "relative",
+      "right": "0px",
+      "top": "0px",
+      "transform-origin": "277.5px 26.5px",
+      "width": "555px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 1,
+        "nodeName": "H2",
+        "textContent": "",
+        "attributes": {},
+        "computedStyles": {
+          "block-size": "1px",
+          "bottom": "36px",
+          "clip": "rect(1px, 1px, 1px, 1px)",
+          "font-size": "25.6px",
+          "height": "1px",
+          "inline-size": "1px",
+          "inset-block-end": "36px",
+          "inset-block-start": "16px",
+          "inset-inline-end": "539px",
+          "inset-inline-start": "15px",
+          "left": "15px",
+          "line-height": "28.16px",
+          "margin-block-end": "0px",
+          "margin-block-start": "0px",
+          "margin-bottom": "0px",
+          "margin-top": "0px",
+          "overflow-x": "hidden",
+          "overflow-y": "hidden",
+          "perspective-origin": "0.5px 0.5px",
+          "position": "absolute",
+          "right": "539px",
+          "top": "16px",
+          "transform-origin": "0.5px 0.5px",
+          "width": "1px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "Search",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "H2",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "SECTION",
+          "nodeType": 1
+        }
+      },
+      {
+        "nodeType": 1,
+        "nodeName": "FORM",
+        "textContent": "",
+        "attributes": {
+          "action": "https://www.canada.ca/en/sr/srb.html",
+          "name": "cse-search-box",
+          "role": "search"
+        },
+        "computedStyles": {
+          "block-size": "37px",
+          "height": "37px",
+          "inline-size": "525px",
+          "perspective-origin": "262.5px 18.5px",
+          "transform-origin": "262.5px 18.5px",
+          "width": "525px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "DIV",
+            "textContent": "",
+            "attributes": {
+              "class": "form-group wb-srch-qry"
+            },
+            "computedStyles": {
+              "block-size": "37px",
+              "height": "37px",
+              "inline-size": "525px",
+              "margin-block-end": "15px",
+              "margin-bottom": "15px",
+              "perspective-origin": "262.5px 18.5px",
+              "transform-origin": "262.5px 18.5px",
+              "width": "525px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "LABEL",
+                "textContent": "",
+                "attributes": {
+                  "for": "wb-srch-q",
+                  "class": "wb-inv"
+                },
+                "computedStyles": {
+                  "block-size": "1px",
+                  "bottom": "36px",
+                  "clip": "rect(1px, 1px, 1px, 1px)",
+                  "display": "block",
+                  "height": "1px",
+                  "inline-size": "1px",
+                  "inset-block-end": "36px",
+                  "inset-block-start": "16px",
+                  "inset-inline-end": "539px",
+                  "inset-inline-start": "15px",
+                  "left": "15px",
+                  "margin-block-end": "0px",
+                  "margin-bottom": "0px",
+                  "overflow-x": "hidden",
+                  "overflow-y": "hidden",
+                  "perspective-origin": "0.5px 0.5px",
+                  "position": "absolute",
+                  "right": "539px",
+                  "top": "16px",
+                  "transform-origin": "0.5px 0.5px",
+                  "width": "1px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 3,
+                    "nodeName": "#text",
+                    "textContent": "Search Canada.ca",
+                    "attributes": {},
+                    "computedStyles": {},
+                    "pseudoStyles": {},
+                    "children": [],
+                    "parent": {
+                      "nodeName": "LABEL",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "DIV",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "INPUT",
+                "textContent": "",
+                "attributes": {
+                  "id": "wb-srch-q",
+                  "list": "wb-srch-q-ac",
+                  "class": "wb-srch-q form-control",
+                  "name": "q",
+                  "type": "search",
+                  "value": "",
+                  "size": "34",
+                  "maxlength": "170",
+                  "placeholder": "Search Canada.ca"
+                },
+                "computedStyles": {
+                  "appearance": "none",
+                  "block-size": "37px",
+                  "border-block-end-color": "rgb(224, 224, 224)",
+                  "border-block-end-style": "solid",
+                  "border-block-end-width": "1px",
+                  "border-block-start-color": "rgb(224, 224, 224)",
+                  "border-block-start-style": "solid",
+                  "border-block-start-width": "1px",
+                  "border-bottom-color": "rgb(224, 224, 224)",
+                  "border-bottom-style": "solid",
+                  "border-bottom-width": "1px",
+                  "border-inline-end-color": "rgb(224, 224, 224)",
+                  "border-inline-end-style": "solid",
+                  "border-inline-end-width": "1px",
+                  "border-inline-start-color": "rgb(224, 224, 224)",
+                  "border-inline-start-style": "solid",
+                  "border-inline-start-width": "1px",
+                  "border-left-color": "rgb(224, 224, 224)",
+                  "border-left-style": "solid",
+                  "border-left-width": "1px",
+                  "border-right-color": "rgb(224, 224, 224)",
+                  "border-right-style": "solid",
+                  "border-right-width": "1px",
+                  "border-top-color": "rgb(224, 224, 224)",
+                  "border-top-style": "solid",
+                  "border-top-width": "1px",
+                  "bottom": "0px",
+                  "caret-color": "rgb(92, 92, 92)",
+                  "color": "rgb(92, 92, 92)",
+                  "column-rule-color": "rgb(92, 92, 92)",
+                  "display": "block",
+                  "height": "37px",
+                  "inline-size": "525px",
+                  "inset-block-end": "0px",
+                  "inset-block-start": "0px",
+                  "inset-inline-end": "0px",
+                  "inset-inline-start": "0px",
+                  "left": "0px",
+                  "min-block-size": "37px",
+                  "min-height": "37px",
+                  "outline-color": "rgb(92, 92, 92)",
+                  "padding-block-end": "6px",
+                  "padding-block-start": "6px",
+                  "padding-bottom": "6px",
+                  "padding-inline-end": "12px",
+                  "padding-inline-start": "12px",
+                  "padding-left": "12px",
+                  "padding-right": "12px",
+                  "padding-top": "6px",
+                  "perspective-origin": "262.5px 18.5px",
+                  "position": "relative",
+                  "right": "0px",
+                  "text-decoration": "none solid rgb(92, 92, 92)",
+                  "text-decoration-color": "rgb(92, 92, 92)",
+                  "text-emphasis-color": "rgb(92, 92, 92)",
+                  "top": "0px",
+                  "transform-origin": "262.5px 18.5px",
+                  "transition-behavior": "normal, normal, normal",
+                  "transition-delay": "0s, 0s, 0s",
+                  "transition-duration": "0.15s, 0.15s, 0.15s",
+                  "transition-property": "border-color, box-shadow, -webkit-box-shadow",
+                  "transition-timing-function": "ease-in-out, ease-in-out, ease-in-out",
+                  "width": "525px",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-fill-color": "rgb(92, 92, 92)",
+                  "-webkit-text-stroke-color": "rgb(92, 92, 92)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "DIV",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "DATALIST",
+                "textContent": "",
+                "attributes": {
+                  "id": "wb-srch-q-ac"
+                },
+                "computedStyles": {
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "DIV",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "FORM",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "DIV",
+            "textContent": "",
+            "attributes": {
+              "class": "form-group submit",
+              "style": "top: 1.25em"
+            },
+            "computedStyles": {
+              "block-size": "36px",
+              "bottom": "-18px",
+              "height": "36px",
+              "inline-size": "46px",
+              "inset-block-end": "-18px",
+              "inset-block-start": "20px",
+              "inset-inline-end": "15px",
+              "inset-inline-start": "494px",
+              "left": "494px",
+              "margin-block-end": "15px",
+              "margin-bottom": "15px",
+              "perspective-origin": "23px 18px",
+              "position": "absolute",
+              "right": "15px",
+              "top": "20px",
+              "transform-origin": "23px 18px",
+              "width": "46px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "BUTTON",
+                "textContent": "",
+                "attributes": {
+                  "type": "submit",
+                  "id": "wb-srch-sub",
+                  "class": "btn btn-primary btn-small",
+                  "name": "wb-srch-sub"
+                },
+                "computedStyles": {
+                  "background-color": "rgb(38, 55, 74)",
+                  "block-size": "36px",
+                  "border-block-end-color": "rgb(38, 55, 74)",
+                  "border-block-end-style": "solid",
+                  "border-block-end-width": "1px",
+                  "border-block-start-color": "rgb(255, 255, 255)",
+                  "border-block-start-style": "none",
+                  "border-block-start-width": "0px",
+                  "border-bottom-color": "rgb(38, 55, 74)",
+                  "border-bottom-style": "solid",
+                  "border-bottom-width": "1px",
+                  "border-inline-end-color": "rgb(255, 255, 255)",
+                  "border-inline-end-style": "none",
+                  "border-inline-end-width": "0px",
+                  "border-inline-start-color": "rgb(255, 255, 255)",
+                  "border-inline-start-style": "none",
+                  "border-inline-start-width": "0px",
+                  "border-left-color": "rgb(255, 255, 255)",
+                  "border-left-style": "none",
+                  "border-left-width": "0px",
+                  "border-right-color": "rgb(255, 255, 255)",
+                  "border-right-style": "none",
+                  "border-right-width": "0px",
+                  "border-top-color": "rgb(255, 255, 255)",
+                  "border-top-style": "none",
+                  "border-top-width": "0px",
+                  "caret-color": "rgb(255, 255, 255)",
+                  "color": "rgb(255, 255, 255)",
+                  "column-rule-color": "rgb(255, 255, 255)",
+                  "font-family": "Lato, sans-serif",
+                  "font-size": "17px",
+                  "height": "36px",
+                  "inline-size": "41px",
+                  "margin-inline-start": "5px",
+                  "margin-left": "5px",
+                  "min-block-size": "36px",
+                  "min-height": "36px",
+                  "min-inline-size": "36px",
+                  "min-width": "36px",
+                  "outline-color": "rgb(255, 255, 255)",
+                  "padding-block-end": "6px",
+                  "padding-block-start": "6px",
+                  "padding-bottom": "6px",
+                  "padding-inline-end": "12px",
+                  "padding-inline-start": "12px",
+                  "padding-left": "12px",
+                  "padding-right": "12px",
+                  "padding-top": "6px",
+                  "perspective-origin": "20.5px 18px",
+                  "text-decoration": "none solid rgb(255, 255, 255)",
+                  "text-decoration-color": "rgb(255, 255, 255)",
+                  "text-emphasis-color": "rgb(255, 255, 255)",
+                  "touch-action": "manipulation",
+                  "transform-origin": "20.5px 18px",
+                  "user-select": "none",
+                  "vertical-align": "middle",
+                  "width": "41px",
+                  "-webkit-locale": "auto",
+                  "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                  "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SPAN",
+                    "textContent": "",
+                    "attributes": {
+                      "class": "glyphicon-search glyphicon"
+                    },
+                    "computedStyles": {
+                      "block-size": "17px",
+                      "border-block-end-color": "rgb(255, 255, 255)",
+                      "border-block-start-color": "rgb(255, 255, 255)",
+                      "border-bottom-color": "rgb(255, 255, 255)",
+                      "border-inline-end-color": "rgb(255, 255, 255)",
+                      "border-inline-start-color": "rgb(255, 255, 255)",
+                      "border-left-color": "rgb(255, 255, 255)",
+                      "border-right-color": "rgb(255, 255, 255)",
+                      "border-top-color": "rgb(255, 255, 255)",
+                      "bottom": "0px",
+                      "caret-color": "rgb(255, 255, 255)",
+                      "color": "rgb(255, 255, 255)",
+                      "column-rule-color": "rgb(255, 255, 255)",
+                      "cursor": "pointer",
+                      "display": "inline-block",
+                      "font-family": "\"Glyphicons Halflings\"",
+                      "font-size": "17px",
+                      "height": "17px",
+                      "inline-size": "17px",
+                      "inset-block-end": "0px",
+                      "inset-block-start": "0px",
+                      "inset-inline-end": "0px",
+                      "inset-inline-start": "0px",
+                      "left": "0px",
+                      "line-height": "17px",
+                      "outline-color": "rgb(255, 255, 255)",
+                      "perspective-origin": "8.5px 8.5px",
+                      "position": "relative",
+                      "right": "0px",
+                      "text-align": "center",
+                      "text-decoration": "none solid rgb(255, 255, 255)",
+                      "text-decoration-color": "rgb(255, 255, 255)",
+                      "text-emphasis-color": "rgb(255, 255, 255)",
+                      "text-rendering": "auto",
+                      "top": "0px",
+                      "transform-origin": "8.5px 8.5px",
+                      "user-select": "none",
+                      "vertical-align": "middle",
+                      "width": "17px",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                      "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "BUTTON",
+                      "nodeType": 1
+                    }
+                  },
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SPAN",
+                    "textContent": "",
+                    "attributes": {
+                      "class": "wb-inv"
+                    },
+                    "computedStyles": {
+                      "block-size": "1px",
+                      "border-block-end-color": "rgb(255, 255, 255)",
+                      "border-block-start-color": "rgb(255, 255, 255)",
+                      "border-bottom-color": "rgb(255, 255, 255)",
+                      "border-inline-end-color": "rgb(255, 255, 255)",
+                      "border-inline-start-color": "rgb(255, 255, 255)",
+                      "border-left-color": "rgb(255, 255, 255)",
+                      "border-right-color": "rgb(255, 255, 255)",
+                      "border-top-color": "rgb(255, 255, 255)",
+                      "bottom": "29px",
+                      "caret-color": "rgb(255, 255, 255)",
+                      "clip": "rect(1px, 1px, 1px, 1px)",
+                      "color": "rgb(255, 255, 255)",
+                      "column-rule-color": "rgb(255, 255, 255)",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "font-family": "Lato, sans-serif",
+                      "font-size": "17px",
+                      "height": "1px",
+                      "inline-size": "1px",
+                      "inset-block-end": "29px",
+                      "inset-block-start": "6px",
+                      "inset-inline-end": "11px",
+                      "inset-inline-start": "34px",
+                      "left": "34px",
+                      "outline-color": "rgb(255, 255, 255)",
+                      "overflow-x": "hidden",
+                      "overflow-y": "hidden",
+                      "perspective-origin": "0.5px 0.5px",
+                      "position": "absolute",
+                      "right": "11px",
+                      "text-align": "center",
+                      "text-decoration": "none solid rgb(255, 255, 255)",
+                      "text-decoration-color": "rgb(255, 255, 255)",
+                      "text-emphasis-color": "rgb(255, 255, 255)",
+                      "text-rendering": "auto",
+                      "top": "6px",
+                      "transform-origin": "0.5px 0.5px",
+                      "user-select": "none",
+                      "width": "1px",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                      "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 3,
+                        "nodeName": "#text",
+                        "textContent": "Search",
+                        "attributes": {},
+                        "computedStyles": {},
+                        "pseudoStyles": {},
+                        "children": [],
+                        "parent": {
+                          "nodeName": "SPAN",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "BUTTON",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "DIV",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "FORM",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "SECTION",
+          "nodeType": 1
+        }
+      }
+    ],
+    "parent": null,
+    "html": "<section id=\"wb-srch\" class=\"col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-sm-5 col-md-4\"><h2>Search</h2><form action=\"https://www.canada.ca/en/sr/srb.html\" name=\"cse-search-box\" role=\"search\"><div class=\"form-group wb-srch-qry\"><label for=\"wb-srch-q\" class=\"wb-inv\">Search Canada.ca</label><input id=\"wb-srch-q\" list=\"wb-srch-q-ac\" class=\"wb-srch-q form-control\" name=\"q\" type=\"search\" value=\"\" size=\"34\" maxlength=\"170\" placeholder=\"Search Canada.ca\" /><datalist id=\"wb-srch-q-ac\"></datalist></div><div class=\"form-group submit\" style=\"top: 1.25em\"><button type=\"submit\" id=\"wb-srch-sub\" class=\"btn btn-primary btn-small\" name=\"wb-srch-sub\"><span class=\"glyphicon-search glyphicon\"></span><span class=\"wb-inv\">Search</span></button></div></form></section>"
+  },
+  "gcds": {
+    "nodeType": 1,
+    "nodeName": "GCDS-SEARCH",
+    "textContent": "",
+    "attributes": {
+      "class": "hydrated"
+    },
+    "computedStyles": {
+      "block-size": "75px",
+      "display": "block",
+      "height": "75px",
+      "inline-size": "555px",
+      "perspective-origin": "277.5px 37.5px",
+      "transform-origin": "277.5px 37.5px",
+      "visibility": "visible",
+      "width": "555px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [],
+    "parent": null,
+    "shadowRoot": [
+      {
+        "nodeType": 1,
+        "nodeName": "DIV",
+        "textContent": "",
+        "attributes": {
+          "class": "gcds-search"
+        },
+        "computedStyles": {
+          "block-size": "75px",
+          "box-sizing": "content-box",
+          "height": "75px",
+          "inline-size": "555px",
+          "perspective-origin": "277.5px 37.5px",
+          "transform-origin": "277.5px 37.5px",
+          "width": "555px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "GCDS-SR-ONLY",
+            "textContent": "",
+            "attributes": {
+              "class": "hydrated"
+            },
+            "computedStyles": {
+              "block-size": "0px",
+              "box-sizing": "content-box",
+              "display": "inline-block",
+              "height": "0px",
+              "inline-size": "0px",
+              "overflow-x": "hidden",
+              "overflow-y": "hidden",
+              "visibility": "visible",
+              "width": "0px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 3,
+                "nodeName": "#text",
+                "textContent": "Search",
+                "attributes": {},
+                "computedStyles": {},
+                "pseudoStyles": {},
+                "children": [],
+                "parent": {
+                  "nodeName": "GCDS-SR-ONLY",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "DIV",
+              "nodeType": 1
+            },
+            "shadowRoot": [
+              {
+                "nodeType": 1,
+                "nodeName": "H2",
+                "textContent": "",
+                "attributes": {},
+                "computedStyles": {
+                  "block-size": "34.5px",
+                  "box-sizing": "content-box",
+                  "font-family": "\"Noto Sans\", sans-serif",
+                  "font-size": "24px",
+                  "font-variant": "normal",
+                  "font-variant-ligatures": "normal",
+                  "height": "34.5px",
+                  "inline-size": "0px",
+                  "line-height": "34.5px",
+                  "margin-block-end": "19.92px",
+                  "margin-block-start": "19.92px",
+                  "margin-bottom": "19.92px",
+                  "margin-top": "19.92px",
+                  "perspective-origin": "0px 17.25px",
+                  "transform-origin": "0px 17.25px",
+                  "width": "0px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SLOT",
+                    "textContent": "",
+                    "attributes": {},
+                    "computedStyles": {
+                      "box-sizing": "content-box",
+                      "display": "inline",
+                      "font-size": "24px",
+                      "font-weight": "700",
+                      "line-height": "34.5px",
+                      "perspective-origin": "0px 0px",
+                      "transform-origin": "0px 0px",
+                      "-webkit-locale": "auto"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "H2",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-SR-ONLY",
+                  "nodeType": 1
+                }
+              }
+            ]
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "FORM",
+            "textContent": "",
+            "attributes": {
+              "action": "https://www.canada.ca/en/sr/srb.html",
+              "method": "get",
+              "role": "search",
+              "class": "gcds-search__form"
+            },
+            "computedStyles": {
+              "block-size": "52px",
+              "box-sizing": "content-box",
+              "display": "flex",
+              "height": "52px",
+              "inline-size": "555px",
+              "margin-block-end": "3px",
+              "margin-bottom": "3px",
+              "perspective-origin": "277.5px 26px",
+              "transform-origin": "277.5px 26px",
+              "width": "555px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "GCDS-LABEL",
+                "textContent": "",
+                "attributes": {
+                  "label-for": "search",
+                  "hide-label": "",
+                  "class": "sc-gcds-label-h sc-gcds-label-s hydrated",
+                  "id": "label-for-search"
+                },
+                "computedStyles": {
+                  "block-size": "52px",
+                  "box-sizing": "content-box",
+                  "display": "block",
+                  "height": "52px",
+                  "inline-size": "0px",
+                  "min-block-size": "auto",
+                  "min-height": "auto",
+                  "min-inline-size": "auto",
+                  "min-width": "auto",
+                  "perspective-origin": "0px 26px",
+                  "transform-origin": "0px 26px",
+                  "visibility": "visible",
+                  "width": "0px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "LABEL",
+                    "textContent": "",
+                    "attributes": {
+                      "for": "search",
+                      "class": "gcds-label label--hidden sc-gcds-label"
+                    },
+                    "computedStyles": {
+                      "box-sizing": "content-box",
+                      "cursor": "pointer",
+                      "display": "block",
+                      "font-weight": "600",
+                      "line-height": "24px",
+                      "margin-block-end": "6px",
+                      "margin-bottom": "6px",
+                      "opacity": "0",
+                      "overflow-x": "hidden",
+                      "overflow-y": "hidden",
+                      "-webkit-locale": "auto"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 1,
+                        "nodeName": "SPAN",
+                        "textContent": "",
+                        "attributes": {
+                          "class": "sc-gcds-label"
+                        },
+                        "computedStyles": {
+                          "box-sizing": "content-box",
+                          "cursor": "pointer",
+                          "font-weight": "600",
+                          "line-height": "24px",
+                          "-webkit-locale": "auto"
+                        },
+                        "pseudoStyles": {
+                          ":hover": {},
+                          ":active": {},
+                          ":visited": {},
+                          ":focus": {}
+                        },
+                        "children": [
+                          {
+                            "nodeType": 3,
+                            "nodeName": "#text",
+                            "textContent": "Search Canada.ca",
+                            "attributes": {},
+                            "computedStyles": {},
+                            "pseudoStyles": {},
+                            "children": [],
+                            "parent": {
+                              "nodeName": "SPAN",
+                              "nodeType": 1
+                            }
+                          }
+                        ],
+                        "parent": {
+                          "nodeName": "LABEL",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "GCDS-LABEL",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "FORM",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "INPUT",
+                "textContent": "",
+                "attributes": {
+                  "type": "search",
+                  "id": "search",
+                  "list": "search-list",
+                  "size": "34",
+                  "maxlength": "170",
+                  "name": "q",
+                  "placeholder": "Search Canada.ca",
+                  "class": "gcds-search__input"
+                },
+                "computedStyles": {
+                  "block-size": "52px",
+                  "border-block-end-color": "rgb(51, 51, 51)",
+                  "border-block-end-style": "solid",
+                  "border-block-start-color": "rgb(51, 51, 51)",
+                  "border-block-start-style": "solid",
+                  "border-bottom-color": "rgb(51, 51, 51)",
+                  "border-bottom-left-radius": "3px",
+                  "border-bottom-style": "solid",
+                  "border-end-start-radius": "3px",
+                  "border-inline-end-color": "rgb(51, 51, 51)",
+                  "border-inline-end-style": "solid",
+                  "border-inline-start-color": "rgb(51, 51, 51)",
+                  "border-inline-start-style": "solid",
+                  "border-left-color": "rgb(51, 51, 51)",
+                  "border-left-style": "solid",
+                  "border-right-color": "rgb(51, 51, 51)",
+                  "border-right-style": "solid",
+                  "border-start-start-radius": "3px",
+                  "border-top-color": "rgb(51, 51, 51)",
+                  "border-top-left-radius": "3px",
+                  "border-top-style": "solid",
+                  "display": "block",
+                  "font-size": "20px",
+                  "height": "52px",
+                  "inline-size": "503px",
+                  "line-height": "24px",
+                  "min-block-size": "48px",
+                  "min-height": "48px",
+                  "min-inline-size": "auto",
+                  "min-width": "auto",
+                  "padding-block-end": "12px",
+                  "padding-block-start": "12px",
+                  "padding-bottom": "12px",
+                  "padding-inline-end": "12px",
+                  "padding-inline-start": "12px",
+                  "padding-left": "12px",
+                  "padding-right": "12px",
+                  "padding-top": "12px",
+                  "perspective-origin": "251.5px 26px",
+                  "transform-origin": "251.5px 26px",
+                  "transition-behavior": "normal, normal",
+                  "transition-delay": "0s, 0s",
+                  "transition-duration": "0.15s, 0.15s",
+                  "transition-property": "border-color, box-shadow",
+                  "transition-timing-function": "ease-in-out, ease-in-out",
+                  "width": "503px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [],
+                "parent": {
+                  "nodeName": "FORM",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "GCDS-BUTTON",
+                "textContent": "",
+                "attributes": {
+                  "class": "gcds-search__button hydrated",
+                  "exportparts": "button"
+                },
+                "computedStyles": {
+                  "block-size": "52px",
+                  "box-sizing": "content-box",
+                  "display": "block",
+                  "height": "52px",
+                  "inline-size": "52px",
+                  "min-block-size": "auto",
+                  "min-height": "auto",
+                  "min-inline-size": "auto",
+                  "min-width": "auto",
+                  "perspective-origin": "26px 26px",
+                  "transform-origin": "26px 26px",
+                  "visibility": "visible",
+                  "width": "52px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "GCDS-ICON",
+                    "textContent": "",
+                    "attributes": {
+                      "fixed-width": "",
+                      "class": "hydrated"
+                    },
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(255, 255, 255)",
+                      "border-block-start-color": "rgb(255, 255, 255)",
+                      "border-bottom-color": "rgb(255, 255, 255)",
+                      "border-inline-end-color": "rgb(255, 255, 255)",
+                      "border-inline-start-color": "rgb(255, 255, 255)",
+                      "border-left-color": "rgb(255, 255, 255)",
+                      "border-right-color": "rgb(255, 255, 255)",
+                      "border-top-color": "rgb(255, 255, 255)",
+                      "box-sizing": "content-box",
+                      "caret-color": "rgb(255, 255, 255)",
+                      "color": "rgb(255, 255, 255)",
+                      "column-rule-color": "rgb(255, 255, 255)",
+                      "cursor": "pointer",
+                      "font-size": "20px",
+                      "font-weight": "500",
+                      "line-height": "24px",
+                      "outline-color": "rgb(255, 255, 255)",
+                      "text-align": "center",
+                      "text-decoration": "none solid rgb(255, 255, 255)",
+                      "text-decoration-color": "rgb(255, 255, 255)",
+                      "text-emphasis-color": "rgb(255, 255, 255)",
+                      "text-rendering": "auto",
+                      "text-wrap": "balance",
+                      "visibility": "visible",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                      "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "GCDS-BUTTON",
+                      "nodeType": 1
+                    },
+                    "shadowRoot": [
+                      {
+                        "nodeType": 1,
+                        "nodeName": "SPAN",
+                        "textContent": "",
+                        "attributes": {
+                          "class": "gcds-icon fa fa-solid fa-search size-text fixed-width",
+                          "role": "img",
+                          "aria-label": "Search",
+                          "aria-hidden": "false"
+                        },
+                        "computedStyles": {
+                          "block-size": "24px",
+                          "border-block-end-color": "rgb(255, 255, 255)",
+                          "border-block-start-color": "rgb(255, 255, 255)",
+                          "border-bottom-color": "rgb(255, 255, 255)",
+                          "border-inline-end-color": "rgb(255, 255, 255)",
+                          "border-inline-start-color": "rgb(255, 255, 255)",
+                          "border-left-color": "rgb(255, 255, 255)",
+                          "border-right-color": "rgb(255, 255, 255)",
+                          "border-top-color": "rgb(255, 255, 255)",
+                          "box-sizing": "content-box",
+                          "caret-color": "rgb(255, 255, 255)",
+                          "color": "rgb(255, 255, 255)",
+                          "column-rule-color": "rgb(255, 255, 255)",
+                          "cursor": "pointer",
+                          "display": "inline-block",
+                          "font-family": "\"Font Awesome 6 Free\", FontAwesome",
+                          "font-size": "20px",
+                          "font-weight": "900",
+                          "height": "24px",
+                          "inline-size": "24px",
+                          "line-height": "24px",
+                          "outline-color": "rgb(255, 255, 255)",
+                          "perspective-origin": "12px 12px",
+                          "text-align": "center",
+                          "text-decoration": "none solid rgb(255, 255, 255)",
+                          "text-decoration-color": "rgb(255, 255, 255)",
+                          "text-emphasis-color": "rgb(255, 255, 255)",
+                          "text-rendering": "auto",
+                          "text-wrap": "balance",
+                          "transform-origin": "12px 12px",
+                          "width": "24px",
+                          "-webkit-locale": "auto",
+                          "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                          "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                        },
+                        "pseudoStyles": {
+                          ":hover": {},
+                          ":active": {},
+                          ":visited": {},
+                          ":focus": {}
+                        },
+                        "children": [],
+                        "parent": {
+                          "nodeName": "GCDS-ICON",
+                          "nodeType": 1
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "parent": {
+                  "nodeName": "FORM",
+                  "nodeType": 1
+                },
+                "shadowRoot": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "BUTTON",
+                    "textContent": "",
+                    "attributes": {
+                      "type": "submit",
+                      "class": "gcds-button button--role-primary button--regular",
+                      "part": "button"
+                    },
+                    "computedStyles": {
+                      "appearance": "auto",
+                      "background-color": "rgb(38, 55, 74)",
+                      "block-size": "52px",
+                      "border-block-end-color": "rgba(0, 0, 0, 0)",
+                      "border-block-end-style": "solid",
+                      "border-block-start-color": "rgba(0, 0, 0, 0)",
+                      "border-block-start-style": "solid",
+                      "border-bottom-color": "rgba(0, 0, 0, 0)",
+                      "border-bottom-right-radius": "6px",
+                      "border-bottom-style": "solid",
+                      "border-end-end-radius": "6px",
+                      "border-inline-end-color": "rgba(0, 0, 0, 0)",
+                      "border-inline-end-style": "solid",
+                      "border-inline-start-color": "rgba(0, 0, 0, 0)",
+                      "border-inline-start-style": "solid",
+                      "border-left-color": "rgba(0, 0, 0, 0)",
+                      "border-left-style": "solid",
+                      "border-right-color": "rgba(0, 0, 0, 0)",
+                      "border-right-style": "solid",
+                      "border-start-end-radius": "6px",
+                      "border-top-color": "rgba(0, 0, 0, 0)",
+                      "border-top-right-radius": "6px",
+                      "border-top-style": "solid",
+                      "caret-color": "rgb(255, 255, 255)",
+                      "color": "rgb(255, 255, 255)",
+                      "column-rule-color": "rgb(255, 255, 255)",
+                      "font-size": "20px",
+                      "font-weight": "500",
+                      "height": "52px",
+                      "inline-size": "52px",
+                      "line-height": "24px",
+                      "outline-color": "rgb(255, 255, 255)",
+                      "padding-block-end": "12px",
+                      "padding-block-start": "12px",
+                      "padding-bottom": "12px",
+                      "padding-inline-end": "12px",
+                      "padding-inline-start": "12px",
+                      "padding-left": "12px",
+                      "padding-right": "12px",
+                      "padding-top": "12px",
+                      "perspective-origin": "26px 26px",
+                      "text-decoration": "none solid rgb(255, 255, 255)",
+                      "text-decoration-color": "rgb(255, 255, 255)",
+                      "text-emphasis-color": "rgb(255, 255, 255)",
+                      "text-wrap": "balance",
+                      "transform-origin": "26px 26px",
+                      "transition-duration": "0.15s",
+                      "transition-timing-function": "ease-in-out",
+                      "width": "52px",
+                      "-webkit-locale": "auto",
+                      "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                      "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 1,
+                        "nodeName": "SLOT",
+                        "textContent": "",
+                        "attributes": {},
+                        "computedStyles": {
+                          "border-block-end-color": "rgb(255, 255, 255)",
+                          "border-block-start-color": "rgb(255, 255, 255)",
+                          "border-bottom-color": "rgb(255, 255, 255)",
+                          "border-inline-end-color": "rgb(255, 255, 255)",
+                          "border-inline-start-color": "rgb(255, 255, 255)",
+                          "border-left-color": "rgb(255, 255, 255)",
+                          "border-right-color": "rgb(255, 255, 255)",
+                          "border-top-color": "rgb(255, 255, 255)",
+                          "box-sizing": "content-box",
+                          "caret-color": "rgb(255, 255, 255)",
+                          "color": "rgb(255, 255, 255)",
+                          "column-rule-color": "rgb(255, 255, 255)",
+                          "cursor": "pointer",
+                          "display": "inline",
+                          "font-size": "20px",
+                          "font-weight": "500",
+                          "line-height": "24px",
+                          "outline-color": "rgb(255, 255, 255)",
+                          "perspective-origin": "0px 0px",
+                          "text-align": "center",
+                          "text-decoration": "none solid rgb(255, 255, 255)",
+                          "text-decoration-color": "rgb(255, 255, 255)",
+                          "text-emphasis-color": "rgb(255, 255, 255)",
+                          "text-rendering": "auto",
+                          "text-wrap": "balance",
+                          "transform-origin": "0px 0px",
+                          "-webkit-locale": "auto",
+                          "-webkit-text-fill-color": "rgb(255, 255, 255)",
+                          "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+                        },
+                        "pseudoStyles": {
+                          ":hover": {},
+                          ":active": {},
+                          ":visited": {},
+                          ":focus": {}
+                        },
+                        "children": [],
+                        "parent": {
+                          "nodeName": "BUTTON",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "GCDS-BUTTON",
+                      "nodeType": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "parent": {
+              "nodeName": "DIV",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "GCDS-SEARCH",
+          "nodeType": 1
+        }
+      },
+      {
+        "nodeType": 1,
+        "nodeName": "STYLE",
+        "textContent": "",
+        "attributes": {},
+        "computedStyles": {
+          "box-sizing": "content-box",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "@layer reset, default;@layer reset{.sc-gcds-label-h{display:block}.sc-gcds-label-h .gcds-label{color:inherit}}@layer default{.sc-gcds-label-h .gcds-label{cursor:pointer;display:block;font:var(--gcds-label-font-desktop);margin:var(--gcds-label-margin)!important;max-width:100%}@media only screen and (width < 48em){.sc-gcds-label-h .gcds-label{font:var(--gcds-label-font-mobile)}}.sc-gcds-label-h .gcds-label.label--hidden{height:0;margin:0;opacity:0;overflow:hidden;width:0}.sc-gcds-label-h .gcds-label .label--required{margin:var(--gcds-label-required-margin)!important}}",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "STYLE",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "GCDS-SEARCH",
+          "nodeType": 1
+        }
+      }
+    ],
+    "html": "<gcds-search></gcds-search>"
+  }
+}

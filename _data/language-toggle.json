@@ -1,0 +1,792 @@
+{
+  "gcweb": {
+    "nodeType": 1,
+    "nodeName": "SECTION",
+    "textContent": "",
+    "attributes": {
+      "id": "wb-lng",
+      "class": "col-xs-3 col-sm-12 pull-right text-right"
+    },
+    "computedStyles": {
+      "block-size": "38.5px",
+      "bottom": "0px",
+      "float": "right",
+      "height": "38.5px",
+      "inline-size": "138.75px",
+      "inset-block-end": "0px",
+      "inset-block-start": "0px",
+      "inset-inline-end": "0px",
+      "inset-inline-start": "0px",
+      "left": "0px",
+      "min-block-size": "1px",
+      "min-height": "1px",
+      "padding-block-start": "10px",
+      "padding-inline-end": "15px",
+      "padding-inline-start": "15px",
+      "padding-left": "15px",
+      "padding-right": "15px",
+      "padding-top": "10px",
+      "perspective-origin": "69.375px 19.25px",
+      "position": "relative",
+      "right": "0px",
+      "text-align": "right",
+      "top": "0px",
+      "transform-origin": "69.375px 19.25px",
+      "width": "138.75px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 1,
+        "nodeName": "H2",
+        "textContent": "",
+        "attributes": {
+          "class": "wb-inv"
+        },
+        "computedStyles": {
+          "block-size": "1px",
+          "bottom": "27.5px",
+          "clip": "rect(1px, 1px, 1px, 1px)",
+          "font-size": "25.6px",
+          "height": "1px",
+          "inline-size": "1px",
+          "inset-block-end": "27.5px",
+          "inset-block-start": "10px",
+          "inset-inline-end": "122.75px",
+          "inset-inline-start": "15px",
+          "left": "15px",
+          "line-height": "28.16px",
+          "margin-block-end": "0px",
+          "margin-block-start": "0px",
+          "margin-bottom": "0px",
+          "margin-top": "0px",
+          "overflow-x": "hidden",
+          "overflow-y": "hidden",
+          "perspective-origin": "0.5px 0.5px",
+          "position": "absolute",
+          "right": "122.75px",
+          "text-align": "right",
+          "top": "10px",
+          "transform-origin": "0.5px 0.5px",
+          "width": "1px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "Language selection",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "H2",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "SECTION",
+          "nodeType": 1
+        }
+      },
+      {
+        "nodeType": 1,
+        "nodeName": "UL",
+        "textContent": "",
+        "attributes": {
+          "class": "list-inline mrgn-bttm-0"
+        },
+        "computedStyles": {
+          "block-size": "28.5px",
+          "height": "28.5px",
+          "inline-size": "113.75px",
+          "list-style-type": "none",
+          "margin-block-end": "0px",
+          "margin-bottom": "0px",
+          "margin-inline-start": "-5px",
+          "margin-left": "-5px",
+          "padding-inline-start": "0px",
+          "padding-left": "0px",
+          "perspective-origin": "56.875px 14.25px",
+          "text-align": "right",
+          "transform-origin": "56.875px 14.25px",
+          "width": "113.75px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "LI",
+            "textContent": "",
+            "attributes": {},
+            "computedStyles": {
+              "block-size": "26.1172px",
+              "display": "inline-block",
+              "height": "26.1172px",
+              "inline-size": "28.3594px",
+              "list-style-type": "none",
+              "padding-inline-start": "5px",
+              "padding-left": "5px",
+              "perspective-origin": "14.1797px 13.0547px",
+              "text-align": "right",
+              "transform-origin": "14.1797px 13.0586px",
+              "width": "28.3594px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "lang": "fr",
+                  "hreflang": "fr",
+                  "href": "#"
+                },
+                "computedStyles": {
+                  "border-block-end-color": "rgb(40, 65, 98)",
+                  "border-block-start-color": "rgb(40, 65, 98)",
+                  "border-bottom-color": "rgb(40, 65, 98)",
+                  "border-inline-end-color": "rgb(40, 65, 98)",
+                  "border-inline-start-color": "rgb(40, 65, 98)",
+                  "border-left-color": "rgb(40, 65, 98)",
+                  "border-right-color": "rgb(40, 65, 98)",
+                  "border-top-color": "rgb(40, 65, 98)",
+                  "caret-color": "rgb(40, 65, 98)",
+                  "color": "rgb(40, 65, 98)",
+                  "column-rule-color": "rgb(40, 65, 98)",
+                  "cursor": "pointer",
+                  "list-style-type": "none",
+                  "outline-color": "rgb(40, 65, 98)",
+                  "text-align": "right",
+                  "text-decoration": "underline solid rgb(40, 65, 98)",
+                  "text-decoration-color": "rgb(40, 65, 98)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(40, 65, 98)",
+                  "-webkit-locale": "\"fr\"",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                  "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SPAN",
+                    "textContent": "",
+                    "attributes": {
+                      "class": "hidden-xs",
+                      "translate": "no"
+                    },
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(40, 65, 98)",
+                      "border-block-start-color": "rgb(40, 65, 98)",
+                      "border-bottom-color": "rgb(40, 65, 98)",
+                      "border-inline-end-color": "rgb(40, 65, 98)",
+                      "border-inline-start-color": "rgb(40, 65, 98)",
+                      "border-left-color": "rgb(40, 65, 98)",
+                      "border-right-color": "rgb(40, 65, 98)",
+                      "border-top-color": "rgb(40, 65, 98)",
+                      "caret-color": "rgb(40, 65, 98)",
+                      "color": "rgb(40, 65, 98)",
+                      "column-rule-color": "rgb(40, 65, 98)",
+                      "cursor": "pointer",
+                      "display": "none",
+                      "list-style-type": "none",
+                      "outline-color": "rgb(40, 65, 98)",
+                      "perspective-origin": "50% 50%",
+                      "text-align": "right",
+                      "text-decoration": "none solid rgb(40, 65, 98)",
+                      "text-decoration-color": "rgb(40, 65, 98)",
+                      "text-emphasis-color": "rgb(40, 65, 98)",
+                      "transform-origin": "50% 50%",
+                      "-webkit-locale": "\"fr\"",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                      "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 3,
+                        "nodeName": "#text",
+                        "textContent": "Français",
+                        "attributes": {},
+                        "computedStyles": {},
+                        "pseudoStyles": {},
+                        "children": [],
+                        "parent": {
+                          "nodeName": "SPAN",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  },
+                  {
+                    "nodeType": 1,
+                    "nodeName": "ABBR",
+                    "textContent": "",
+                    "attributes": {
+                      "title": "Français",
+                      "translate": "no",
+                      "class": "visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase"
+                    },
+                    "computedStyles": {
+                      "block-size": "21.1172px",
+                      "border-block-end-color": "rgb(40, 65, 98)",
+                      "border-block-start-color": "rgb(40, 65, 98)",
+                      "border-bottom-color": "rgb(40, 65, 98)",
+                      "border-inline-end-color": "rgb(40, 65, 98)",
+                      "border-inline-start-color": "rgb(40, 65, 98)",
+                      "border-left-color": "rgb(40, 65, 98)",
+                      "border-right-color": "rgb(40, 65, 98)",
+                      "border-top-color": "rgb(40, 65, 98)",
+                      "caret-color": "rgb(40, 65, 98)",
+                      "color": "rgb(40, 65, 98)",
+                      "column-rule-color": "rgb(40, 65, 98)",
+                      "cursor": "help",
+                      "display": "block",
+                      "font-family": "Lato, sans-serif",
+                      "font-size": "19.2px",
+                      "font-variant": "no-common-ligatures",
+                      "font-variant-ligatures": "no-common-ligatures",
+                      "font-weight": "700",
+                      "height": "21.1172px",
+                      "inline-size": "23.3594px",
+                      "line-height": "21.12px",
+                      "list-style-type": "none",
+                      "margin-block-start": "5px",
+                      "margin-top": "5px",
+                      "outline-color": "rgb(40, 65, 98)",
+                      "perspective-origin": "11.6797px 10.5547px",
+                      "text-align": "right",
+                      "text-decoration": "underline dotted rgb(40, 65, 98)",
+                      "text-decoration-color": "rgb(40, 65, 98)",
+                      "text-decoration-line": "underline",
+                      "text-decoration-skip-ink": "none",
+                      "text-decoration-style": "dotted",
+                      "text-emphasis-color": "rgb(40, 65, 98)",
+                      "text-transform": "uppercase",
+                      "transform-origin": "11.6797px 10.5586px",
+                      "width": "23.3594px",
+                      "-webkit-locale": "\"fr\"",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(40, 65, 98)",
+                      "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [
+                      {
+                        "nodeType": 3,
+                        "nodeName": "#text",
+                        "textContent": "fr",
+                        "attributes": {},
+                        "computedStyles": {},
+                        "pseudoStyles": {},
+                        "children": [],
+                        "parent": {
+                          "nodeName": "ABBR",
+                          "nodeType": 1
+                        }
+                      }
+                    ],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "LI",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "UL",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "SECTION",
+          "nodeType": 1
+        }
+      }
+    ],
+    "parent": null,
+    "html": "<section id=\"wb-lng\" class=\"col-xs-3 col-sm-12 pull-right text-right\"><h2 class=\"wb-inv\">Language selection</h2><ul class=\"list-inline mrgn-bttm-0\"><li><a lang=\"fr\" hreflang=\"fr\" href=\"#\"><span class=\"hidden-xs\" translate=\"no\">Français</span><abbr title=\"Français\" translate=\"no\" class=\"visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase\">fr</abbr></a></li></ul></section>"
+  },
+  "gcds": {
+    "nodeType": 1,
+    "nodeName": "GCDS-LANG-TOGGLE",
+    "textContent": "",
+    "attributes": {
+      "href": "#",
+      "class": "hydrated"
+    },
+    "computedStyles": {
+      "block-size": "24px",
+      "display": "block",
+      "height": "24px",
+      "inline-size": "555px",
+      "perspective-origin": "277.5px 12px",
+      "transform-origin": "277.5px 12px",
+      "visibility": "visible",
+      "width": "555px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [],
+    "parent": null,
+    "shadowRoot": [
+      {
+        "nodeType": 1,
+        "nodeName": "DIV",
+        "textContent": "",
+        "attributes": {
+          "class": "gcds-lang-toggle"
+        },
+        "computedStyles": {
+          "block-size": "24px",
+          "box-sizing": "content-box",
+          "height": "24px",
+          "inline-size": "555px",
+          "perspective-origin": "277.5px 12px",
+          "transform-origin": "277.5px 12px",
+          "width": "555px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "GCDS-SR-ONLY",
+            "textContent": "",
+            "attributes": {
+              "id": "lang-toggle__heading",
+              "class": "hydrated"
+            },
+            "computedStyles": {
+              "block-size": "0px",
+              "box-sizing": "content-box",
+              "display": "inline-block",
+              "height": "0px",
+              "inline-size": "0px",
+              "overflow-x": "hidden",
+              "overflow-y": "hidden",
+              "visibility": "visible",
+              "width": "0px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 3,
+                "nodeName": "#text",
+                "textContent": "Language selection",
+                "attributes": {},
+                "computedStyles": {},
+                "pseudoStyles": {},
+                "children": [],
+                "parent": {
+                  "nodeName": "GCDS-SR-ONLY",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "DIV",
+              "nodeType": 1
+            },
+            "shadowRoot": [
+              {
+                "nodeType": 1,
+                "nodeName": "H2",
+                "textContent": "",
+                "attributes": {},
+                "computedStyles": {
+                  "block-size": "69px",
+                  "box-sizing": "content-box",
+                  "font-family": "\"Noto Sans\", sans-serif",
+                  "font-size": "24px",
+                  "font-variant": "normal",
+                  "font-variant-ligatures": "normal",
+                  "height": "69px",
+                  "inline-size": "0px",
+                  "line-height": "34.5px",
+                  "margin-block-end": "19.92px",
+                  "margin-block-start": "19.92px",
+                  "margin-bottom": "19.92px",
+                  "margin-top": "19.92px",
+                  "perspective-origin": "0px 34.5px",
+                  "transform-origin": "0px 34.5px",
+                  "width": "0px",
+                  "-webkit-locale": "auto"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SLOT",
+                    "textContent": "",
+                    "attributes": {},
+                    "computedStyles": {
+                      "box-sizing": "content-box",
+                      "display": "inline",
+                      "font-size": "24px",
+                      "font-weight": "700",
+                      "line-height": "34.5px",
+                      "perspective-origin": "0px 0px",
+                      "transform-origin": "0px 0px",
+                      "-webkit-locale": "auto"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "H2",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-SR-ONLY",
+                  "nodeType": 1
+                }
+              }
+            ]
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "GCDS-LINK",
+            "textContent": "",
+            "attributes": {
+              "lang": "fr",
+              "class": "hydrated"
+            },
+            "computedStyles": {
+              "block-size": "24px",
+              "box-sizing": "content-box",
+              "display": "inline-block",
+              "height": "24px",
+              "inline-size": "36.2578px",
+              "perspective-origin": "18.125px 12px",
+              "transform-origin": "18.1289px 12px",
+              "visibility": "visible",
+              "width": "36.2578px",
+              "-webkit-locale": "\"fr\""
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 1,
+                "nodeName": "SPAN",
+                "textContent": "",
+                "attributes": {},
+                "computedStyles": {
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "display": "none",
+                  "line-height": "24px",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "perspective-origin": "50% 50%",
+                  "text-decoration": "none solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "transform-origin": "50% 50%",
+                  "-webkit-locale": "\"fr\"",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 3,
+                    "nodeName": "#text",
+                    "textContent": "Français",
+                    "attributes": {},
+                    "computedStyles": {},
+                    "pseudoStyles": {},
+                    "children": [],
+                    "parent": {
+                      "nodeName": "SPAN",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              },
+              {
+                "nodeType": 1,
+                "nodeName": "ABBR",
+                "textContent": "",
+                "attributes": {
+                  "title": "Français"
+                },
+                "computedStyles": {
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "line-height": "24px",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "text-decoration": "none solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "text-transform": "uppercase",
+                  "-webkit-locale": "\"fr\"",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 3,
+                    "nodeName": "#text",
+                    "textContent": "fr",
+                    "attributes": {},
+                    "computedStyles": {},
+                    "pseudoStyles": {},
+                    "children": [],
+                    "parent": {
+                      "nodeName": "ABBR",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "DIV",
+              "nodeType": 1
+            },
+            "shadowRoot": [
+              {
+                "nodeType": 1,
+                "nodeName": "A",
+                "textContent": "",
+                "attributes": {
+                  "role": "link",
+                  "tabindex": "0",
+                  "href": "#",
+                  "target": "_self",
+                  "class": "gcds-link link--regular",
+                  "part": "link"
+                },
+                "computedStyles": {
+                  "border-block-end-color": "rgb(43, 67, 128)",
+                  "border-block-start-color": "rgb(43, 67, 128)",
+                  "border-bottom-color": "rgb(43, 67, 128)",
+                  "border-inline-end-color": "rgb(43, 67, 128)",
+                  "border-inline-start-color": "rgb(43, 67, 128)",
+                  "border-left-color": "rgb(43, 67, 128)",
+                  "border-right-color": "rgb(43, 67, 128)",
+                  "border-top-color": "rgb(43, 67, 128)",
+                  "box-sizing": "content-box",
+                  "caret-color": "rgb(43, 67, 128)",
+                  "color": "rgb(43, 67, 128)",
+                  "column-rule-color": "rgb(43, 67, 128)",
+                  "cursor": "pointer",
+                  "line-height": "24px",
+                  "outline-color": "rgb(43, 67, 128)",
+                  "padding-block-end": "9px",
+                  "padding-block-start": "9px",
+                  "padding-bottom": "9px",
+                  "padding-inline-end": "9px",
+                  "padding-inline-start": "9px",
+                  "padding-left": "9px",
+                  "padding-right": "9px",
+                  "padding-top": "9px",
+                  "text-decoration": "underline 1px solid rgb(43, 67, 128)",
+                  "text-decoration-color": "rgb(43, 67, 128)",
+                  "text-decoration-line": "underline",
+                  "text-emphasis-color": "rgb(43, 67, 128)",
+                  "transition-duration": "0.35s",
+                  "-webkit-locale": "\"fr\"",
+                  "-webkit-text-decorations-in-effect": "underline",
+                  "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                  "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                },
+                "pseudoStyles": {
+                  ":hover": {},
+                  ":active": {},
+                  ":visited": {},
+                  ":focus": {}
+                },
+                "children": [
+                  {
+                    "nodeType": 1,
+                    "nodeName": "SLOT",
+                    "textContent": "",
+                    "attributes": {},
+                    "computedStyles": {
+                      "border-block-end-color": "rgb(43, 67, 128)",
+                      "border-block-start-color": "rgb(43, 67, 128)",
+                      "border-bottom-color": "rgb(43, 67, 128)",
+                      "border-inline-end-color": "rgb(43, 67, 128)",
+                      "border-inline-start-color": "rgb(43, 67, 128)",
+                      "border-left-color": "rgb(43, 67, 128)",
+                      "border-right-color": "rgb(43, 67, 128)",
+                      "border-top-color": "rgb(43, 67, 128)",
+                      "box-sizing": "content-box",
+                      "caret-color": "rgb(43, 67, 128)",
+                      "color": "rgb(43, 67, 128)",
+                      "column-rule-color": "rgb(43, 67, 128)",
+                      "cursor": "pointer",
+                      "display": "inline",
+                      "line-height": "24px",
+                      "outline-color": "rgb(43, 67, 128)",
+                      "perspective-origin": "0px 0px",
+                      "text-decoration": "none solid rgb(43, 67, 128)",
+                      "text-decoration-color": "rgb(43, 67, 128)",
+                      "text-emphasis-color": "rgb(43, 67, 128)",
+                      "transform-origin": "0px 0px",
+                      "-webkit-locale": "\"fr\"",
+                      "-webkit-text-decorations-in-effect": "underline",
+                      "-webkit-text-fill-color": "rgb(43, 67, 128)",
+                      "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+                    },
+                    "pseudoStyles": {
+                      ":hover": {},
+                      ":active": {},
+                      ":visited": {},
+                      ":focus": {}
+                    },
+                    "children": [],
+                    "parent": {
+                      "nodeName": "A",
+                      "nodeType": 1
+                    }
+                  }
+                ],
+                "parent": {
+                  "nodeName": "GCDS-LINK",
+                  "nodeType": 1
+                }
+              }
+            ]
+          }
+        ],
+        "parent": {
+          "nodeName": "GCDS-LANG-TOGGLE",
+          "nodeType": 1
+        }
+      }
+    ],
+    "html": "<gcds-lang-toggle href=\\\"#\\\"></gcds-lang-toggle>"
+  }
+}

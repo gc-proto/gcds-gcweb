@@ -15,7 +15,7 @@ function updateState(updates) {
 function renderUI() {
   document.getElementById('patternName').value = state.patternName;
   if (state.patternSource) {
-      document.querySelector(`input[name="patternSource"][value="${state.patternSource}"]`).checked = true;
+    document.querySelector(`input[name="patternSource"][value="${state.patternSource}"]`).checked = true;
   }
   document.getElementById('content').value = state.content;
   document.getElementById('jsonPreview').textContent = state.jsonData;
@@ -29,40 +29,40 @@ function renderUI() {
   iframeDoc.close();
 
   if (state.patternSource === 'GCDS') {
-      const scriptModule = iframeDoc.createElement('script');
-      scriptModule.type = 'module';
-      scriptModule.src = 'https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.esm.js';
-      iframeDoc.head.appendChild(scriptModule);
+    const scriptModule = iframeDoc.createElement('script');
+    scriptModule.type = 'module';
+    scriptModule.src = 'https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.esm.js';
+    iframeDoc.head.appendChild(scriptModule);
 
-      const scriptNoModule = iframeDoc.createElement('script');
-      scriptNoModule.nomodule = true;
-      scriptNoModule.src = 'https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.js';
-      iframeDoc.head.appendChild(scriptNoModule);
+    const scriptNoModule = iframeDoc.createElement('script');
+    scriptNoModule.nomodule = true;
+    scriptNoModule.src = 'https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.js';
+    iframeDoc.head.appendChild(scriptNoModule);
   }
 
   // Append stylesheets and scripts from parent document to iframe
   Array.from(document.styleSheets).forEach(sheet => {
-      if (sheet.href) {
-          const link = iframeDoc.createElement('link');
-          link.rel = 'stylesheet';
-          link.href = sheet.href;
-          iframeDoc.head.appendChild(link);
-      } else if (sheet.ownerNode && sheet.ownerNode.tagName === 'STYLE') {
-          const style = iframeDoc.createElement('style');
-          style.textContent = sheet.ownerNode.textContent;
-          iframeDoc.head.appendChild(style);
-      }
+    if (sheet.href) {
+      const link = iframeDoc.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = sheet.href;
+      iframeDoc.head.appendChild(link);
+    } else if (sheet.ownerNode && sheet.ownerNode.tagName === 'STYLE') {
+      const style = iframeDoc.createElement('style');
+      style.textContent = sheet.ownerNode.textContent;
+      iframeDoc.head.appendChild(style);
+    }
   });
+}
 
-  iframe.onload = async () => {
-    setTimeout(async () => {
-        const root = iframeDoc.body.firstElementChild;
-        const domInfo = traverseDOM(root);
-        const jsonData = JSON.stringify(domInfo, null, 2);
-        updateState({ jsonData });
-        document.getElementById('jsonPreview').textContent = jsonData; // Update JSON preview
-    }, 500)
-  };
+// Function to copy JSON to clipboard
+function copyJsonToClipboard() {
+  const jsonContent = document.getElementById('jsonPreview').textContent;
+  navigator.clipboard.writeText(jsonContent).then(() => {
+    alert('JSON copied to clipboard!');
+  }).catch(err => {
+    console.error('Failed to copy JSON: ', err);
+  });
 }
 
 // Initial setup
@@ -70,100 +70,137 @@ document.addEventListener('DOMContentLoaded', () => {
   renderUI(); // Initial rendering of the UI
 
   document.getElementById('patternName').addEventListener('input', (event) => {
-      updateState({ patternName: event.target.value });
+    updateState({ patternName: event.target.value });
   });
 
   document.querySelectorAll('input[name="patternSource"]').forEach(radio => {
-      radio.addEventListener('change', (event) => {
-          updateState({ patternSource: event.target.value });
-      });
+    radio.addEventListener('change', (event) => {
+      updateState({ patternSource: event.target.value });
+    });
   });
 
   document.getElementById('content').addEventListener('input', (event) => {
-      updateState({ content: event.target.value });
+    updateState({ content: event.target.value });
   });
 
   document.getElementById('getInfo').addEventListener('click', handleGetInfoOnClick);
+
+  document.getElementById('copyJson').addEventListener('click', copyJsonToClipboard);
 });
+
+// Function to escape quotes in HTML content
+function escapeQuotes(html) {
+  return html.replace(/"/g, '\\"');
+}
 
 async function handleGetInfoOnClick() {
   const { patternName, patternSource, content } = state;
 
   if (!patternName || !patternSource || !content) {
-      alert('All fields are required.');
-      return;
+    alert('All fields are required.');
+    return;
   }
 
+  // Trim all whitespace from the content
+  const trimmedContent = content.replace(/>\s+</g, '><').trim();
+
   const iframeContent = `
-      <!DOCTYPE html>
-      <html>
-      <head></head>
-      <body>${content}</body>
-      </html>
+    <!DOCTYPE html>
+    <html>
+    <head></head>
+    <body>${trimmedContent}</body>
+    </html>
   `;
   updateState({ iframeContent });
 
-  renderUI(); // Only render UI when the export button is clicked
-}
+  renderUI();
 
-function getNodeInfo(node) {
-  const nodeInfo = {
-      nodeType: node.nodeType,
-      nodeName: node.nodeName,
-      textContent: node.nodeType === Node.TEXT_NODE ? node.textContent : '',
-      attributes: {},
-      computedStyles: {},
-      pseudoStyles: {}
+  const iframe = document.getElementById('renderFrame');
+  const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+  // Wait for the iframe to load and scripts to execute
+  await new Promise(resolve => {
+    iframe.onload = async () => {
+      await executeScripts(iframeDoc);
+      setTimeout(resolve, 1000); // Wait a bit more to ensure all scripts are executed
+    };
+  });
+
+  const root = iframeDoc.body.firstElementChild;
+  const domInfo = traverseDOM(root);
+
+  // Create the new structure with patternSource as the top-level key
+  const finalDomInfo = {
+    [patternSource.toLowerCase()]: {
+      ...domInfo,
+      html: escapeQuotes(trimmedContent)
+    }
   };
 
-  if (node.nodeType === Node.ELEMENT_NODE) {
-      Array.from(node.attributes).forEach(attr => {
-          nodeInfo.attributes[attr.name] = attr.value;
-      });
+  const jsonData = JSON.stringify(finalDomInfo, null, 2);
+  updateState({ jsonData });
 
-      const computedStyles = window.getComputedStyle(node);
-
-      // Create a new element of the same type to compare default styles
-      const defaultElement = document.createElement(node.nodeName);
-      document.body.appendChild(defaultElement);
-      const defaultStyles = window.getComputedStyle(defaultElement);
-
-      for (let style of computedStyles) {
-          const value = computedStyles.getPropertyValue(style);
-          const defaultValue = defaultStyles.getPropertyValue(style);
-          if (value !== defaultValue) {
-              nodeInfo.computedStyles[style] = value;
-          }
-      }
-
-      // Clean up the default element
-      document.body.removeChild(defaultElement);
-
-      // Capture pseudo-styles
-      const pseudoStates = [':hover', ':active', ':visited', ':focus'];
-      pseudoStates.forEach(state => {
-          const pseudoStyles = window.getComputedStyle(node, state);
-          nodeInfo.pseudoStyles[state] = {};
-          for (let style of pseudoStyles) {
-              const value = pseudoStyles.getPropertyValue(style);
-              if (value !== 'none' && value !== 'auto' && value !== 'normal' && value !== '0') {
-                  nodeInfo.pseudoStyles[state][style] = value;
-              }
-          }
-      });
-  }
-
-  return nodeInfo;
+  document.getElementById('jsonPreview').textContent = jsonData;
 }
 
 function traverseDOM(node, parentInfo = null) {
   const nodeInfo = getNodeInfo(node);
   nodeInfo.children = Array.from(node.childNodes).map(child => traverseDOM(child, nodeInfo));
-  nodeInfo.parent = parentInfo && parentInfo.nodeName != 'BODY' ? { nodeName: parentInfo.nodeName, nodeType: parentInfo.nodeType } : null;
+  nodeInfo.parent = parentInfo && parentInfo.nodeName !== 'BODY' ? { nodeName: parentInfo.nodeName, nodeType: parentInfo.nodeType } : null;
 
   // Traverse Shadow DOM if it exists
   if (node.shadowRoot) {
-      nodeInfo.shadowRoot = Array.from(node.shadowRoot.childNodes).map(child => traverseDOM(child, nodeInfo));
+    nodeInfo.shadowRoot = Array.from(node.shadowRoot.childNodes).map(child => traverseDOM(child, nodeInfo));
+  }
+
+  return nodeInfo;
+}
+
+function getNodeInfo(node) {
+  const nodeInfo = {
+    nodeType: node.nodeType,
+    nodeName: node.nodeName,
+    textContent: node.nodeType === Node.TEXT_NODE ? node.textContent : '',
+    attributes: {},
+    computedStyles: {},
+    pseudoStyles: {}
+  };
+
+  if (node.nodeType === Node.ELEMENT_NODE) {
+    Array.from(node.attributes).forEach(attr => {
+      nodeInfo.attributes[attr.name] = attr.value;
+    });
+
+    const computedStyles = window.getComputedStyle(node);
+
+    // Create a new element of the same type to compare default styles
+    const defaultElement = document.createElement(node.nodeName);
+    document.body.appendChild(defaultElement);
+    const defaultStyles = window.getComputedStyle(defaultElement);
+
+    for (let style of computedStyles) {
+      const value = computedStyles.getPropertyValue(style);
+      const defaultValue = defaultStyles.getPropertyValue(style);
+      if (value !== defaultValue) {
+        nodeInfo.computedStyles[style] = value;
+      }
+    }
+
+    // Clean up the default element
+    document.body.removeChild(defaultElement);
+
+    // Capture pseudo-styles
+    const pseudoStates = [':hover', ':active', ':visited', ':focus'];
+    pseudoStates.forEach(state => {
+      const pseudoStyles = window.getComputedStyle(node, state);
+      nodeInfo.pseudoStyles[state] = {};
+      for (let style of pseudoStyles) {
+        const value = pseudoStyles.getPropertyValue(style);
+        if (value !== 'none' && value !== 'auto' && value !== 'normal' && value !== '0') {
+          nodeInfo.pseudoStyles[state][style] = value;
+        }
+      }
+    });
   }
 
   return nodeInfo;
@@ -171,24 +208,24 @@ function traverseDOM(node, parentInfo = null) {
 
 function executeScripts(iframeDoc) {
   return new Promise((resolve) => {
-      const scriptTags = Array.from(iframeDoc.querySelectorAll('script'));
-      let loadedScripts = 0;
-      scriptTags.forEach((scriptTag) => {
-          const scriptElement = iframeDoc.createElement('script');
-          if (scriptTag.type) scriptElement.type = scriptTag.type;
-          if (scriptTag.src) {
-              scriptElement.src = scriptTag.src;
-              scriptElement.onload = () => {
-                  loadedScripts += 1;
-                  if (loadedScripts === scriptTags.length) resolve();
-              };
-          } else {
-              scriptElement.textContent = scriptTag.textContent;
-              loadedScripts += 1;
-          }
-          iframeDoc.head.appendChild(scriptElement);
-          scriptTag.remove();
-      });
-      if (loadedScripts === scriptTags.length) resolve();
+    const scriptTags = Array.from(iframeDoc.querySelectorAll('script'));
+    let loadedScripts = 0;
+    scriptTags.forEach((scriptTag) => {
+      const scriptElement = iframeDoc.createElement('script');
+      if (scriptTag.type) scriptElement.type = scriptTag.type;
+      if (scriptTag.src) {
+        scriptElement.src = scriptTag.src;
+        scriptElement.onload = () => {
+          loadedScripts += 1;
+          if (loadedScripts === scriptTags.length) resolve();
+        };
+      } else {
+        scriptElement.textContent = scriptTag.textContent;
+        loadedScripts += 1;
+      }
+      iframeDoc.head.appendChild(scriptElement);
+      scriptTag.remove();
+    });
+    if (loadedScripts === scriptTags.length) resolve();
   });
 }
