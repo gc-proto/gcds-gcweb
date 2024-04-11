@@ -1,0 +1,194 @@
+{
+  "gcweb": {
+    "nodeType": 1,
+    "nodeName": "A",
+    "textContent": "",
+    "attributes": {
+      "href": "#"
+    },
+    "computedStyles": {
+      "border-block-end-color": "rgb(40, 65, 98)",
+      "border-block-start-color": "rgb(40, 65, 98)",
+      "border-bottom-color": "rgb(40, 65, 98)",
+      "border-inline-end-color": "rgb(40, 65, 98)",
+      "border-inline-start-color": "rgb(40, 65, 98)",
+      "border-left-color": "rgb(40, 65, 98)",
+      "border-right-color": "rgb(40, 65, 98)",
+      "border-top-color": "rgb(40, 65, 98)",
+      "caret-color": "rgb(40, 65, 98)",
+      "color": "rgb(40, 65, 98)",
+      "column-rule-color": "rgb(40, 65, 98)",
+      "cursor": "pointer",
+      "outline-color": "rgb(40, 65, 98)",
+      "text-decoration": "underline solid rgb(40, 65, 98)",
+      "text-decoration-color": "rgb(40, 65, 98)",
+      "text-decoration-line": "underline",
+      "text-emphasis-color": "rgb(40, 65, 98)",
+      "-webkit-locale": "auto",
+      "-webkit-text-decorations-in-effect": "underline",
+      "-webkit-text-fill-color": "rgb(40, 65, 98)",
+      "-webkit-text-stroke-color": "rgb(40, 65, 98)"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 3,
+        "nodeName": "#text",
+        "textContent": "Rest",
+        "attributes": {},
+        "computedStyles": {},
+        "pseudoStyles": {},
+        "children": [],
+        "parent": {
+          "nodeName": "A",
+          "nodeType": 1
+        }
+      }
+    ],
+    "parent": null,
+    "html": "<a href=\"#\">Rest</a>"
+  },
+  "gcds": {
+    "nodeType": 1,
+    "nodeName": "GCDS-LINK",
+    "textContent": "",
+    "attributes": {
+      "href": "#",
+      "class": "hydrated"
+    },
+    "computedStyles": {
+      "block-size": "23px",
+      "display": "inline-block",
+      "height": "23px",
+      "inline-size": "32.4141px",
+      "perspective-origin": "16.2031px 11.5px",
+      "transform-origin": "16.207px 11.5px",
+      "visibility": "visible",
+      "width": "32.4141px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 3,
+        "nodeName": "#text",
+        "textContent": "Rest",
+        "attributes": {},
+        "computedStyles": {},
+        "pseudoStyles": {},
+        "children": [],
+        "parent": {
+          "nodeName": "GCDS-LINK",
+          "nodeType": 1
+        }
+      }
+    ],
+    "parent": null,
+    "shadowRoot": [
+      {
+        "nodeType": 1,
+        "nodeName": "A",
+        "textContent": "",
+        "attributes": {
+          "role": "link",
+          "tabindex": "0",
+          "href": "#",
+          "target": "_self",
+          "class": "gcds-link link--inherit",
+          "part": "link"
+        },
+        "computedStyles": {
+          "border-block-end-color": "rgb(43, 67, 128)",
+          "border-block-start-color": "rgb(43, 67, 128)",
+          "border-bottom-color": "rgb(43, 67, 128)",
+          "border-inline-end-color": "rgb(43, 67, 128)",
+          "border-inline-start-color": "rgb(43, 67, 128)",
+          "border-left-color": "rgb(43, 67, 128)",
+          "border-right-color": "rgb(43, 67, 128)",
+          "border-top-color": "rgb(43, 67, 128)",
+          "box-sizing": "content-box",
+          "caret-color": "rgb(43, 67, 128)",
+          "color": "rgb(43, 67, 128)",
+          "column-rule-color": "rgb(43, 67, 128)",
+          "cursor": "pointer",
+          "outline-color": "rgb(43, 67, 128)",
+          "text-decoration": "underline 1px solid rgb(43, 67, 128)",
+          "text-decoration-color": "rgb(43, 67, 128)",
+          "text-decoration-line": "underline",
+          "text-emphasis-color": "rgb(43, 67, 128)",
+          "transition-duration": "0.35s",
+          "-webkit-locale": "auto",
+          "-webkit-text-decorations-in-effect": "underline",
+          "-webkit-text-fill-color": "rgb(43, 67, 128)",
+          "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 1,
+            "nodeName": "SLOT",
+            "textContent": "",
+            "attributes": {},
+            "computedStyles": {
+              "border-block-end-color": "rgb(43, 67, 128)",
+              "border-block-start-color": "rgb(43, 67, 128)",
+              "border-bottom-color": "rgb(43, 67, 128)",
+              "border-inline-end-color": "rgb(43, 67, 128)",
+              "border-inline-start-color": "rgb(43, 67, 128)",
+              "border-left-color": "rgb(43, 67, 128)",
+              "border-right-color": "rgb(43, 67, 128)",
+              "border-top-color": "rgb(43, 67, 128)",
+              "box-sizing": "content-box",
+              "caret-color": "rgb(43, 67, 128)",
+              "color": "rgb(43, 67, 128)",
+              "column-rule-color": "rgb(43, 67, 128)",
+              "cursor": "pointer",
+              "display": "inline",
+              "outline-color": "rgb(43, 67, 128)",
+              "perspective-origin": "0px 0px",
+              "text-decoration": "none solid rgb(43, 67, 128)",
+              "text-decoration-color": "rgb(43, 67, 128)",
+              "text-emphasis-color": "rgb(43, 67, 128)",
+              "transform-origin": "0px 0px",
+              "-webkit-locale": "auto",
+              "-webkit-text-decorations-in-effect": "underline",
+              "-webkit-text-fill-color": "rgb(43, 67, 128)",
+              "-webkit-text-stroke-color": "rgb(43, 67, 128)"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [],
+            "parent": {
+              "nodeName": "A",
+              "nodeType": 1
+            }
+          }
+          ],
+        "parent": {
+          "nodeName": "GCDS-LINK",
+          "nodeType": 1
+        }
+      }
+    ],
+    "html": "<gcds-link href=\"#\">Rest</gcds-link>"
+  }
+}

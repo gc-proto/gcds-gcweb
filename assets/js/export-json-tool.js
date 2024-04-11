@@ -55,12 +55,13 @@ function renderUI() {
   });
 
   iframe.onload = async () => {
-      await executeScripts(iframeDoc);
-      const root = iframeDoc.body.firstElementChild;
-      const domInfo = traverseDOM(root);
-      const jsonData = JSON.stringify(domInfo, null, 2);
-      updateState({ jsonData });
-      document.getElementById('jsonPreview').textContent = jsonData; // Update JSON preview
+    setTimeout(async () => {
+        const root = iframeDoc.body.firstElementChild;
+        const domInfo = traverseDOM(root);
+        const jsonData = JSON.stringify(domInfo, null, 2);
+        updateState({ jsonData });
+        document.getElementById('jsonPreview').textContent = jsonData; // Update JSON preview
+    }, 500)
   };
 }
 
@@ -82,10 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
       updateState({ content: event.target.value });
   });
 
-  document.getElementById('exportButton').addEventListener('click', handleExportButtonClick);
+  document.getElementById('getInfo').addEventListener('click', handleGetInfoOnClick);
 });
 
-async function handleExportButtonClick() {
+async function handleGetInfoOnClick() {
   const { patternName, patternSource, content } = state;
 
   if (!patternName || !patternSource || !content) {
@@ -163,26 +164,6 @@ function traverseDOM(node, parentInfo = null) {
   // Traverse Shadow DOM if it exists
   if (node.shadowRoot) {
       nodeInfo.shadowRoot = Array.from(node.shadowRoot.childNodes).map(child => traverseDOM(child, nodeInfo));
-
-      // Add computed styles for shadow DOM child nodes
-      nodeInfo.shadowRoot.forEach(childNodeInfo => {
-          if (childNodeInfo.nodeType === Node.ELEMENT_NODE) {
-              const shadowComputedStyles = window.getComputedStyle(childNodeInfo.node);
-              const shadowDefaultElement = document.createElement(childNodeInfo.nodeName);
-              document.body.appendChild(shadowDefaultElement);
-              const shadowDefaultStyles = window.getComputedStyle(shadowDefaultElement);
-
-              for (let style of shadowComputedStyles) {
-                  const value = shadowComputedStyles.getPropertyValue(style);
-                  const defaultValue = shadowDefaultStyles.getPropertyValue(style);
-                  if (value !== defaultValue) {
-                      childNodeInfo.computedStyles[style] = value;
-                  }
-              }
-
-              document.body.removeChild(shadowDefaultElement);
-          }
-      });
   }
 
   return nodeInfo;

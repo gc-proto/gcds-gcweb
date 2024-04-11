@@ -1,0 +1,291 @@
+{
+  "gcweb": {
+    "nodeType": 1,
+    "nodeName": "DIV",
+    "textContent": "",
+    "attributes": {
+      "class": "panel-body"
+    },
+    "computedStyles": {
+      "block-size": "80px",
+      "height": "80px",
+      "inline-size": "555px",
+      "padding-block-end": "15px",
+      "padding-block-start": "15px",
+      "padding-bottom": "15px",
+      "padding-inline-end": "15px",
+      "padding-inline-start": "15px",
+      "padding-left": "15px",
+      "padding-right": "15px",
+      "padding-top": "15px",
+      "perspective-origin": "277.5px 40px",
+      "transform-origin": "277.5px 40px",
+      "width": "555px",
+      "-webkit-locale": "auto"
+    },
+    "pseudoStyles": {
+      ":hover": {},
+      ":active": {},
+      ":visited": {},
+      ":focus": {}
+    },
+    "children": [
+      {
+        "nodeType": 3,
+        "nodeName": "#text",
+        "textContent": "\n        ",
+        "attributes": {},
+        "computedStyles": {},
+        "pseudoStyles": {},
+        "children": [],
+        "parent": {
+          "nodeName": "DIV",
+          "nodeType": 1
+        }
+      },
+      {
+        "nodeType": 1,
+        "nodeName": "SECTION",
+        "textContent": "",
+        "attributes": {
+          "id": "wb-so"
+        },
+        "computedStyles": {
+          "block-size": "50px",
+          "height": "50px",
+          "inline-size": "525px",
+          "perspective-origin": "262.5px 25px",
+          "text-align": "right",
+          "transform-origin": "262.5px 25px",
+          "width": "525px",
+          "-webkit-locale": "auto"
+        },
+        "pseudoStyles": {
+          ":hover": {},
+          ":active": {},
+          ":visited": {},
+          ":focus": {}
+        },
+        "children": [
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "\n          ",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "SECTION",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "H2",
+            "textContent": "",
+            "attributes": {
+              "class": "wb-inv"
+            },
+            "computedStyles": {
+              "block-size": "1px",
+              "bottom": "284px",
+              "clip": "rect(1px, 1px, 1px, 1px)",
+              "font-size": "25.6px",
+              "height": "1px",
+              "inline-size": "1px",
+              "inset-block-end": "284px",
+              "inset-block-start": "15px",
+              "inset-inline-end": "539px",
+              "inset-inline-start": "15px",
+              "left": "15px",
+              "line-height": "28.16px",
+              "margin-block-end": "0px",
+              "margin-block-start": "0px",
+              "margin-bottom": "0px",
+              "margin-top": "0px",
+              "overflow-x": "hidden",
+              "overflow-y": "hidden",
+              "perspective-origin": "0.5px 0.5px",
+              "position": "absolute",
+              "right": "539px",
+              "text-align": "right",
+              "top": "15px",
+              "transform-origin": "0.5px 0.5px",
+              "width": "1px",
+              "-webkit-locale": "auto"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 3,
+                "nodeName": "#text",
+                "textContent": "Sign in",
+                "attributes": {},
+                "computedStyles": {},
+                "pseudoStyles": {},
+                "children": [],
+                "parent": {
+                  "nodeName": "H2",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "SECTION",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "\n          ",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "SECTION",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 1,
+            "nodeName": "A",
+            "textContent": "",
+            "attributes": {
+              "class": "btn btn-primary",
+              "href": "https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html"
+            },
+            "computedStyles": {
+              "background-color": "rgb(38, 55, 74)",
+              "block-size": "45px",
+              "border-block-end-color": "rgb(38, 55, 74)",
+              "border-block-end-style": "outset",
+              "border-block-end-width": "1px",
+              "border-block-start-color": "rgb(38, 55, 74)",
+              "border-block-start-style": "outset",
+              "border-block-start-width": "1px",
+              "border-bottom-color": "rgb(38, 55, 74)",
+              "border-bottom-style": "outset",
+              "border-bottom-width": "1px",
+              "border-inline-end-color": "rgb(38, 55, 74)",
+              "border-inline-end-style": "outset",
+              "border-inline-end-width": "1px",
+              "border-inline-start-color": "rgb(38, 55, 74)",
+              "border-inline-start-style": "outset",
+              "border-inline-start-width": "1px",
+              "border-left-color": "rgb(38, 55, 74)",
+              "border-left-style": "outset",
+              "border-left-width": "1px",
+              "border-right-color": "rgb(38, 55, 74)",
+              "border-right-style": "outset",
+              "border-right-width": "1px",
+              "border-top-color": "rgb(38, 55, 74)",
+              "border-top-style": "outset",
+              "border-top-width": "1px",
+              "caret-color": "rgb(255, 255, 255)",
+              "color": "rgb(255, 255, 255)",
+              "column-rule-color": "rgb(255, 255, 255)",
+              "cursor": "pointer",
+              "display": "inline-block",
+              "font-family": "Lato, sans-serif",
+              "height": "45px",
+              "inline-size": "75.7344px",
+              "margin-block-start": "5px",
+              "margin-top": "5px",
+              "min-block-size": "36px",
+              "min-height": "36px",
+              "min-inline-size": "36px",
+              "min-width": "36px",
+              "outline-color": "rgb(255, 255, 255)",
+              "padding-block-end": "10px",
+              "padding-block-start": "10px",
+              "padding-bottom": "10px",
+              "padding-inline-end": "14px",
+              "padding-inline-start": "14px",
+              "padding-left": "14px",
+              "padding-right": "14px",
+              "padding-top": "10px",
+              "perspective-origin": "37.8672px 22.5px",
+              "text-align": "center",
+              "text-decoration": "none solid rgb(255, 255, 255)",
+              "text-decoration-color": "rgb(255, 255, 255)",
+              "text-emphasis-color": "rgb(255, 255, 255)",
+              "touch-action": "manipulation",
+              "transform-origin": "37.8672px 22.5px",
+              "user-select": "none",
+              "vertical-align": "middle",
+              "width": "75.7344px",
+              "-webkit-locale": "auto",
+              "-webkit-text-fill-color": "rgb(255, 255, 255)",
+              "-webkit-text-stroke-color": "rgb(255, 255, 255)"
+            },
+            "pseudoStyles": {
+              ":hover": {},
+              ":active": {},
+              ":visited": {},
+              ":focus": {}
+            },
+            "children": [
+              {
+                "nodeType": 3,
+                "nodeName": "#text",
+                "textContent": "Sign in",
+                "attributes": {},
+                "computedStyles": {},
+                "pseudoStyles": {},
+                "children": [],
+                "parent": {
+                  "nodeName": "A",
+                  "nodeType": 1
+                }
+              }
+            ],
+            "parent": {
+              "nodeName": "SECTION",
+              "nodeType": 1
+            }
+          },
+          {
+            "nodeType": 3,
+            "nodeName": "#text",
+            "textContent": "\n        ",
+            "attributes": {},
+            "computedStyles": {},
+            "pseudoStyles": {},
+            "children": [],
+            "parent": {
+              "nodeName": "SECTION",
+              "nodeType": 1
+            }
+          }
+        ],
+        "parent": {
+          "nodeName": "DIV",
+          "nodeType": 1
+        }
+      },
+      {
+        "nodeType": 3,
+        "nodeName": "#text",
+        "textContent": "\n",
+        "attributes": {},
+        "computedStyles": {},
+        "pseudoStyles": {},
+        "children": [],
+        "parent": {
+          "nodeName": "DIV",
+          "nodeType": 1
+        }
+      }
+    ],
+    "parent": null,
+    "html": "<div class=\"panel-body\">\n<section id=\"wb-so\">\n<h2 class=\"wb-inv\">Sign in</h2>\n<a class=\"btn btn-primary\" href=\"https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html\">Sign in</a>\n</section>\n</div>"
+  }
+}

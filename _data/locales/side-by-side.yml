@@ -1,0 +1,48 @@
+status:
+  en: Status
+  fr: Statut
+dependencies:
+  en: Dependencies
+  fr: Dépendences
+dom-info-heading:
+  en: DOM Information
+  fr: Détails sur le DOM
+node-type-heading:
+  en: DOM Node types
+  fr: Type d'éléments DOM
+element-heading:
+  en: Element
+  fr: Élement
+attributes-heading:
+  en: Attributes
+  fr: Attributs
+property-heading:
+  en: Property
+  fr: Propriété
+value-heading:
+  en: Value
+  fr: Valeur
+text-heading:
+  en: Text
+  fr: Texte
+node-relationship:
+  en: Node relationships
+  fr: Relations de l'élément
+parent-child:
+  en: Parent-Child
+  fr: Parent-enfant
+siblings-heading:
+  en: Siblings
+  fr: Élements frères
+child-nodes:
+  en: Child nodes
+  fr: Elements enfant
+child-node:
+  en: Child node
+  fr: Element enfant
+contains:
+  en: Contains
+  fr: Contient
+css-info:
+  en: CSS computed info
+  fr: Informations calculées CSS

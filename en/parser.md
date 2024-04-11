@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
-- title: Mandatory elements
+- title: Home
   link: "/en/"
 dateModified: 2024-05-24
-script: "../../assets/js/export-json-tool.js"
+script: "../assets/js/export-json-tool.js"
 title: Export Detailed DOM Info to JSON
 ---
 <div class="row">
@@ -24,7 +24,7 @@ title: Export Detailed DOM Info to JSON
       <label for="content">HTML Code:</label>
       <textarea class="form-control" id="content" rows="10" cols="50" required></textarea>
     </div>
-    <button id="exportButton">Get DOM info</button>
+    <button id="getInfo">Get DOM info</button>
     <iframe id="renderFrame" class="mrgn-tp-lg" style="display:block; border: none; width: 100%; height: 300px;"></iframe>
   </div>
   <div class="col-md-6">

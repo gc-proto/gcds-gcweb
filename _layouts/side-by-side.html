@@ -1,0 +1,209 @@
+---
+layout: default
+---
+
+<style>
+  .color-indicator {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px #333 solid;
+  }
+</style>
+{% assign side-by-side = site.data.locales.side-by-side %}
+{% assign component = site.data[page.component] %}
+<dl class="dl-horizontal brdr-0">
+  <dt>{{ side-by-side.status[ page.lang ] }}</dt>
+  <dd><span class="label label-warning mrgn-lft-sm">{{ page.status }}</span></dd>
+  <dt>{{ side-by-side.dependencies[ page.lang ] }}</dt>
+  <dd><span class="label label-info mrgn-lft-sm">{{ page.dependency }}</span></dd>
+</dl>
+<div class="row wb-eqht">
+  <div class="col-md-6">
+    <section class="panel panel-default hght-inhrt">
+      <header class="panel-heading"><h2 class="panel-title">GCWeb</h2></header>
+      <div class="panel-body">
+        {{ component.gcweb.html }}
+      </div>
+    </section>
+  </div>
+  <div class="col-md-6">
+    <section class="panel panel-default hght-inhrt">
+      <header class="panel-heading"><h2 class="panel-title">GCDS</h2></header>
+      <div class="panel-body">
+        {{ component.gcds.html }}
+      </div>
+    </section>
+  </div>
+</div>
+{{ content }}
+<details open>
+  <summary>{{ side-by-side.dom-info-heading[ page.lang ] }}</summary>
+  <div class="row">
+    <div class="col-md-6">
+      <h2>{{ side-by-side.node-type-heading[ page.lang ] }}</h2> 
+      <!-- <p>There are several types of nodes, including:</p> -->
+      <dl>
+        <dt>{{ side-by-side.element-heading[ page.lang ] }}</dt>
+        <dd><code>&lt;{{ component.gcweb.nodeName | downcase }}&gt;</code></dd>
+        <dt>{{ side-by-side.attributes-heading[ page.lang ] }}</dt>
+        <dd>
+          <ul>
+          {% for attr in component.gcweb.attributes %}
+            <li>{{ side-by-side.property-heading[ page.lang ] }}: <code>{{ attr[0] }}</code></li>
+            <li>{{ side-by-side.value-heading[ page.lang ] }}: <code>{{ attr[1] }}</code></li>
+          {% endfor %}
+          </ul>
+        </dd>
+        {% for children in component.gcweb.children %}
+          {% if children.nodeType == 3 %}
+        <dt>{{ side-by-side.text-heading[ page.lang ] }}</dt>
+        <dd><cite>{{ children.textContent }}</cite></dd>
+          {% endif %}
+        {% endfor %}
+        <dt>{{ side-by-side.css-info[ page.lang ] }}</dt>
+        <dd>
+          <ul>
+            {% for rule in component.gcweb.computedStyles %}
+              <li>{{ rule[0] }}: 
+                {% if rule[1] contains "rgb" %}
+                  <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
+                {% else %}
+                  <code>{{ rule[1] }}</code>
+                {% endif %}
+              </li>
+            {% endfor %}
+            </ul>  
+        </dd>
+      </dl>
+      <h2>{{ side-by-side.node-relationship[ page.lang ] }}</h2>
+      <!-- <p>Nodes can have relationships with each other, such as:</p> -->
+      <dl>
+        <dt>{{ side-by-side.parent-child[ page.lang ] }}</dt>
+        <dd><code>{{ component.gcweb.shadowRoot[0].parent }}</code></dd>
+        {% if component.gcweb.siblings[ page.lang ] %}
+        <dt>{{ side-by-side.siblings-heading }}</dt>
+        <dd>Nodes can have siblings, which are nodes at the same level in the document tree.</dd>
+        {% endif %}
+        <dt>{{ side-by-side.child-nodes[ page.lang ] }}</dt>
+        <dd>
+          {% if component.gcweb.children.size > 1 %}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcweb.children | size }}</code> {{ side-by-side.child-nodes[ page.lang ] | downcase }}
+          {% else %}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcweb.children | size }}</code> {{ side-by-side.child-node[ page.lang ] | downcase }}
+          {% endif %}
+          <ul>
+          {% for child in component.gcweb.children %}
+            {% case child.nodeType %}
+              {% when 1 %}
+            <li>
+              <code>&lt;{{ child.nodeName | downcase }}&gt;</code><br>
+              <ul>
+              {% for rule in child.computedStyles %}
+                <li>{{ rule[0] }}: 
+                  {% if rule[1] contains "rgb" %}
+                    <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
+                  {% else %}
+                    <code>{{ rule[1] }}</code>
+                  {% endif %}
+                </li>
+              {% endfor %}
+              </ul>
+            </li>
+              {% when 2 %}
+            <li><code>{{ child.nodeName }}</code></li>
+              {% when 3 %}
+            <li><code>{{ child.nodeName | remove_first: '#' }}</code></li>
+              {% else %}
+            <li>{{ child.nodeName }}</li>
+            {% endcase %}
+          {% endfor %}
+          </ul>
+        </dd>
+      </dl> 
+    </div>
+    <div class="col-md-6">
+      <h2>{{ side-by-side.node-type-heading[ page.lang ] }}</h2> 
+      <!-- <p>There are several types of nodes, including:</p> -->
+      <dl>
+        <dt>{{ side-by-side.element-heading[ page.lang ] }}</dt>
+        <dd><code>&lt;{{ component.gcds.shadowRoot[0].nodeName | downcase }}&gt;</code></dd>
+        <dt>{{ side-by-side.attributes-heading[ page.lang ] }}</dt>
+        <dd>
+          <ul>
+          {% for attr in component.gcds.shadowRoot[0].attributes %}
+            <li>{{ side-by-side.property-heading[ page.lang ] }}: <code>{{ attr[0] }}</code></li>
+            <li>{{ side-by-side.value-heading[ page.lang ] }}: <code>{{ attr[1] }}</code></li>
+          {% endfor %}
+          </ul>
+        </dd>
+        {% for child in component.gcds.children[0] %}
+          {% if child.nodeType == 3 %}
+        <dt>{{ side-by-side.text-heading[ page.lang ] }}</dt>
+        <dd><cite>{{ child.textContent }}</cite></dd>
+          {% endif %}
+        {% endfor %}
+        <dt>{{ side-by-side.css-info[ page.lang ] }}</dt>
+        <dd>
+          <ul>
+            {% for rule in component.gcds.shadowRoot[0].computedStyles %}
+            <li>{{ rule[0] }}: 
+                {% if rule[1] contains "rgb" %}
+              <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
+                {% else %}
+              <code>{{ rule[1] }}</code>
+                {% endif %}
+             </li>
+            {% endfor %}
+          </ul>  
+        </dd>
+      </dl>
+      <h2>{{ side-by-side.node-relationship[ page.lang ] }}</h2>
+      <!-- <p>Nodes can have relationships with each other, such as:</p> -->
+      <dl>
+        <dt>{{ side-by-side.parent-child[ page.lang ] }}</dt>
+        <dd><code>&lt;{{ component.gcds.shadowRoot[0].parent.nodeName | downcase }}&gt;</code></dd>
+        {% if component.gcds.shadowRoot[0].siblings[ page.lang ] %}
+        <dt>{{ side-by-side.siblings-heading }}</dt>
+        <dd>Nodes can have siblings, which are nodes at the same level in the document tree.</dd>
+        {% endif %}
+        <dt>{{ side-by-side.child-nodes[ page.lang ] }}</dt>
+        <dd>
+          {% if component.gcds.shadowRoot[0].children.size > 1 %}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcds.shadowRoot[0].children | size }}</code> {{ side-by-side.child-nodes[ page.lang ] | downcase }}
+          {% else %}
+            {{ side-by-side.contains[ page.lang ] }} <code>{{ component.gcds.shadowRoot[0].children | size }}</code> {{ side-by-side.child-node[ page.lang ] | downcase }}
+          {% endif %}
+          <ul>
+          {% for child in component.gcds.shadowRoot[0].children %}
+            {% case child.nodeType %}
+              {% when 1 %}
+            <li>
+              <code>&lt;{{ child.nodeName | downcase }}&gt;</code><br>
+              <ul>
+                {% for rule in child.computedStyles %}
+                  <li>{{ rule[0] }}: 
+                    {% if rule[1] contains "rgb" %}
+                      <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
+                    {% else %}
+                      <code>{{ rule[1] }}</code>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+                </ul>
+            </li>
+              {% when 2 %}
+            <li><code>{{ child.nodeName }}</code></li>
+              {% when 3 %}
+            <li><code>{{ child.nodeName | remove_first: '#' }}</code></li>
+              {% else %}
+            <li>{{ child.nodeName }}</li>
+            {% endcase %}
+          {% endfor %}
+          </ul>
+        </dd>
+      </dl> 
+    </div>
+  </div>
+</details>
+
