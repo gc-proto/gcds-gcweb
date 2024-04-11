@@ -1,0 +1,31 @@
+{% for item in include.items %}
+  <li>
+    {% case item.nodeType %}
+      {% when 1 %}
+        <code>&lt;{{ item.nodeName | downcase }}&gt;</code>
+        <ul>
+          {% for rule in item.computedStyles %}
+            <li>{{ rule[0] }}: 
+              {% if rule[1] contains "rgb" %}
+              <span class="color-indicator" style="background-color: {{ rule[1] }};"></span> <code>{{ rule[1] }}</code>
+              {% else %}
+              <code>{{ rule[1] }}</code>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% when 2 %}
+        <code>{{ item.nodeName }}</code>
+      {% when 3 %}
+        <code>{{ item.nodeName | remove_first: '#' }}</code>
+      {% else %}
+        {{ item.nodeName }}
+    {% endcase %}
+    
+    {% if item.children %}
+      <ul>
+        {% include recursive_list.liquid items=item.children %}
+      </ul>
+    {% endif %}
+  </li>
+{% endfor %}

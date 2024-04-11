@@ -31,19 +31,6 @@
     },
     "children": [
       {
-        "nodeType": 3,
-        "nodeName": "#text",
-        "textContent": "\n        ",
-        "attributes": {},
-        "computedStyles": {},
-        "pseudoStyles": {},
-        "children": [],
-        "parent": {
-          "nodeName": "DIV",
-          "nodeType": 1
-        }
-      },
-      {
         "nodeType": 1,
         "nodeName": "SECTION",
         "textContent": "",
@@ -67,19 +54,6 @@
           ":focus": {}
         },
         "children": [
-          {
-            "nodeType": 3,
-            "nodeName": "#text",
-            "textContent": "\n          ",
-            "attributes": {},
-            "computedStyles": {},
-            "pseudoStyles": {},
-            "children": [],
-            "parent": {
-              "nodeName": "SECTION",
-              "nodeType": 1
-            }
-          },
           {
             "nodeType": 1,
             "nodeName": "H2",
@@ -136,19 +110,6 @@
                 }
               }
             ],
-            "parent": {
-              "nodeName": "SECTION",
-              "nodeType": 1
-            }
-          },
-          {
-            "nodeType": 3,
-            "nodeName": "#text",
-            "textContent": "\n          ",
-            "attributes": {},
-            "computedStyles": {},
-            "pseudoStyles": {},
-            "children": [],
             "parent": {
               "nodeName": "SECTION",
               "nodeType": 1
@@ -251,34 +212,8 @@
               "nodeName": "SECTION",
               "nodeType": 1
             }
-          },
-          {
-            "nodeType": 3,
-            "nodeName": "#text",
-            "textContent": "\n        ",
-            "attributes": {},
-            "computedStyles": {},
-            "pseudoStyles": {},
-            "children": [],
-            "parent": {
-              "nodeName": "SECTION",
-              "nodeType": 1
-            }
           }
         ],
-        "parent": {
-          "nodeName": "DIV",
-          "nodeType": 1
-        }
-      },
-      {
-        "nodeType": 3,
-        "nodeName": "#text",
-        "textContent": "\n",
-        "attributes": {},
-        "computedStyles": {},
-        "pseudoStyles": {},
-        "children": [],
         "parent": {
           "nodeName": "DIV",
           "nodeType": 1
