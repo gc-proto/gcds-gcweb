@@ -1,6 +1,5 @@
 # Jekyll configuration file
 
-baseurl: "gcds-gcweb/"
 collections_dir: patterns
 collections:
   components:
